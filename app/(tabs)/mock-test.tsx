@@ -1,30 +1,24 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { StyleSheet, Image, Platform } from 'react-native';
+import { StyleSheet, Image, Platform, Button } from 'react-native';
 
 import { Collapsible } from '@/components/Collapsible';
 import { ExternalLink } from '@/components/ExternalLink';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { lessons } from '@/lessons';
+import { lessons } from '@/database/lessons';
 
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
-      headerImage={<Ionicons size={310} name="code-slash" style={styles.headerImage} />}>
+      headerImage={<Ionicons size={310} name="flag-outline" style={styles.headerImage} />}>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">SamTest</ThemedText>
       </ThemedView>
-      <ThemedText>Đây là một app để giúp mẹ thi đậu Phật cử.</ThemedText>
+      <ThemedText>Muốn thi đậu thì đậu thi thử trước đã.</ThemedText>
       
-      {
-        lessons.map((lesson, index) => (
-          <Collapsible key={lesson.id} title={`Bài ${lesson.id}: ${lesson.title}`}>
-            <ThemedText>{lesson.content}</ThemedText>
-          </Collapsible>
-        ))
-      }
+      <Button title='Start Test' />
     </ParallaxScrollView>
   );
 }
