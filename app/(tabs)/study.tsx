@@ -12,7 +12,7 @@ export default function TabTwoScreen() {
   const [modalVisible, setModalVisible] = useState(false);
   const [lessonId, setLessonId] = useState(0);
 
-  const lessonPressed = (id : any) => {
+  const lessonPressed = (id : number) => {
     setLessonId(id)
     setModalVisible(true)
   }

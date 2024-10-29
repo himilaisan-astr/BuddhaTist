@@ -5,7 +5,7 @@ import { lessons } from "@/database/lessons";
 import { questionDB } from "@/database/questions";
 
 export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
-const currentLesson = lessons[lessonId];
+  const currentLesson = lessons[lessonId];
   const [answers, setAnswers] = useState<any[]>(currentLesson.content.answers);
   const [questions, setQuestions] = useState(currentLesson.content.questions);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -13,6 +13,12 @@ const currentLesson = lessons[lessonId];
 
   const [correct, setCorrect] = useState<boolean>();
   const [ansCheck, setAnsCheck] = useState<boolean>();
+
+  console.log(questions)
+
+  useEffect(() => {
+    setQuestions(currentLesson.content.questions)
+  }, [lessonId])
 
   const checkAnswer = () => {
     if (selectedOption !== null) {

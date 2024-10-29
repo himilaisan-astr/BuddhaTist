@@ -123,7 +123,7 @@ export const questionDB = [
     ],
     [
         {
-            id: 1,
+            id: 11,
             question: "Các nhà tiên tri đoán điềm mộng (voi trắng sáu ngà) Hoàng Hậu Ma Da thấy như thế nào?",
             options:
             [
@@ -157,7 +157,165 @@ export const questionDB = [
                 "Rừng Ta la",
             ],
             correctOption: 0,
+        },
+        {
+            id: 14,
+            question: 'Sự ra đời của Đức Phật thường được gọi là "Đản sanh" có ý nghĩa gì?',
+            options:
+            [
+                "Hiện sinh từ chỗ cao tới chỗ thấp",
+                "Sự ra đời làm vui vẻ, làm hân hoan, xán lạn cho đời",
+                "Hiện ra hình thể bằng xương bằng thịt cho con người nhìn thấy được",
+                "Đáp án A, B và C",
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 15,
+            question: 'Sự ra đời của Đức Phật thường được gọi là "Thị hiện" có ý nghĩa gì?',
+            options:
+            [
+                "Hiện sinh từ chỗ cao tới chỗ thấp",
+                "Sự ra đời làm vui vẻ, làm hân hoan, làm xán lạn cho đời",
+                "Hiện ra hình thể bằng xương bằng thịt làm cho con người nhìn thấy được",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 16,
+            question: "Mẫu hậu, người hạ sinh thái tử Tất Đạt Đa là vị nào?",
+            options:
+            [
+                "Hoàng hậu Ma Da",
+                "Hoàng hậu Kiều Đàm Di",
+                "Hoàng hậu Vy Đề Hy",
+                "Hoàng hậu Mạt Lợi"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 17,
+            question: "Sau khi sinh thái tử Tất Đạt Đa, hoàng hậu Ma Da sinh về cõi nào?",
+            options:
+            [
+                "Cõi trời Phạm Thiên",
+                "Cõi trời Đao Lợi",
+                "Cõi trời Hóa Lạc Thiên",
+                "Cõi trời Đâu Suất"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 18,
+            question: "Thái tử Tất Đạt Đa xuất thân từ giai cấp nào?",
+            options:
+            [
+                "Bà la môn",
+                "Sát Đế Lợi",
+                "Phệ Xá",
+                "Phủ Đà La"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 19,
+            question: "Theo Liên Hợp Quốc, Phật Đản Sanh năm nào được chọn phổ biến nhất?",
+            options:
+            [
+                "Năm 563 trước Tây lịch",
+                "Năm 566 trước Tây lịch",
+                "Năm 623 trước Tây lịch",
+                "Năm 624 trước Tây lịch"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 20,
+            question: "Danh hiệu Thích ca Mâu Ni có nghĩa là gì?",
+            options:
+            [
+                "Bậc Năng nhơn, Tịch mặc",
+                "Nhà hiền triết của dòng Thích ca",
+                "Bậc thông thái",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 21,
+            question: "Dì Mẫu người chăm sóc thời niên thiếu cho Thái tử Tất Đạt Đa là ai?",
+            options:
+            [
+                "Bà Ma Da",
+                "Bà Kiều Đàm Di",
+                "Bà Vi Đề Hy",
+                "Bà Mạt Lợi"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 22,
+            question: "Tài năng và đức hạnh của Thái tử Tất Đạt Đa ra sao?",
+            options:
+            [
+                "Văn võ song toàn",
+                "Tài đức, thương người mến vật",
+                "Thông minh, khiêm hạ, lễ độ",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 23,
+            question: "Nhân lễ hạ điền, theo vua cha ra đồng cầy cấy, thái tử Tất Đạt Đa nhìn thấy gì?",
+            options:
+            [
+                "Cảnh vui sướng của người nông dân",
+                "Cảnh tương tàn tương sát của các loài côn trùng, các loài cầm thú",
+                "Cảnh hoa lá tốt tươi, chim mun ca hót",
+                "Cảnh người nông dân chăm sóc ruộng vườn"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 24,
+            question: "Sinh phép vua cha đi dạo bốn cửa thành, thái tử Tất Đạt Đa đến cửa thành nào đầu tiên?",
+            options:
+            [
+                "Cửa thành Đông",
+                "Cửa thành Nam",
+                "Cửa thành Tây",
+                "Cửa thành Bắc"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 25,
+            question: "Thái tử Tất Đạt Đa gặp cảnh người người già ở cửa thành nào?",
+            options:
+            [
+                "Cửa thành Đông",
+                "Cửa thành Nam",
+                "Cửa thành Tây",
+                "Cửa thành Bắc"
+            ],
+            correctOption: 0,
+        },
+        // paste
+        {
+            id: 0,
+            question: "",
+            options:
+            [
+                "",
+                "",
+                "",
+                ""
+            ],
+            correctOption: 0,
         }
+        
     ],
     [],
     [],
