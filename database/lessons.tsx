@@ -1,104 +1,226 @@
+import { questionDB } from "./questions";
+
 export const lessons = [
     {
-        id: 1,
+        lessonId: 0,
         title: "ĐẠO PHẬT",
-        content: "1-10"
+        fromTo: "1-10",
+        isCompleted: false,
+        content: {
+            contentId: 0,
+            questions: questionDB[0],
+            answers: [],
+        }
     },
     {
-        id: 2,
+        lessonId: 1,
         title: "LƯỢC SỬ ĐỨC PHẬT",
         subtitle: "(từ Đản sanh đến Thành đạo)",
-        content: "11-39"
+        fromTo: "11-39",
+        isCompleted: false,
+        content: {
+            contentId: 1,
+            questions: questionDB[1],
+            answers: [],
+        }
     },
     {
-        id: 3,
+        lessonId: 2,
         title: "LƯỢC SỬ ĐỨC PHẬT",
         subtitle: "từ Thành đạo đến Niết bàn",
-        content: "40-76"
+        fromTo: "40-76",
+        isCompleted: false,
+        content: {
+            contentId: 2,
+            questions: questionDB[2],
+            answers: [],
+        }
     },
     {
-        id: 4,
+        lessonId: 3,
         title: "QUY Y TAM BẢO",
-        content: "77-96"
+        fromTo: "77-96",
+        isCompleted: false,
+        content: {
+            contentId: 3,
+            questions: questionDB[3],
+            answers: [],
+        }
     },
     {
-        id: 5,
+        lessonId: 4,
         title: "NGŨ GIỚI",
-        content: "97-113"
+        fromTo: "97-113",
+        isCompleted: false,
+        content: {
+            contentId: 4,
+            questions: questionDB[4],
+            answers: [],
+        }
     },
     {
-        id: 6,
+        lessonId: 5,
         title: "SÁM HỐI",
-        content: "114-119"
+        fromTo: "114-119",
+        isCompleted: false,
+        content: {
+            contentId: 5,
+            questions: questionDB[5],
+            answers: [],
+        }
     },
     {
-        id: 7,
+        lessonId: 6,
         title: "THỜ PHẬT, CÚNG PHẬT, LỄ PHẬT",
-        content: "120-126"
+        fromTo: "120-126",
+        isCompleted: false,
+        content: {
+            contentId: 6,
+            questions: questionDB[6],
+            answers: [],
+        }
     },
     {
-        id: 8,
+        lessonId: 7,
         title: "TỤNG KINH, TRÌ CHÚ, NIỆM PHẬT",
-        content: "127-132"
+        fromTo: "127-132",
+        isCompleted: false,
+        content: {
+            contentId: 7,
+            questions: questionDB[7],
+            answers: [],
+        }
     },
     {
-        id: 9,
+        lessonId: 8,
         title: "ĂN CHAY",
-        content: "133-136"
+        fromTo: "133-136",
+        isCompleted: false,
+        content: {
+            contentId: 8,
+            questions: questionDB[8],
+            answers: [],
+        }
     },
     {
-        id: 10,
+        lessonId: 9,
         title: "BÁT QUAN TRAI GIỚI",
-        content: "137-145"
+        fromTo: "137-145",
+        isCompleted: false,
+        content: {
+            contentId: 9,
+            questions: questionDB[9],
+            answers: [],
+        }
     },
     {
-        id: 11,
+        lessonId: 10,
         title: "BỔN PHẬN PHẬT TỬ TẠI GIA",
-        content: "146-158"
+        fromTo: "146-158",
+        isCompleted: false,
+        content: {
+            contentId: 10,
+            questions: questionDB[10],
+            answers: [],
+        }
     },
     {
-        id: 12,
+        lessonId: 11,
         title: "VU LAN BỒN",
-        content: "159-170"
+        fromTo: "159-170",
+        isCompleted: false,
+        content: {
+            contentId: 11,
+            questions: questionDB[11],
+            answers: [],
+        }
     },
     {
-        id: 13,
+        lessonId: 12,
         title: "VÔ THƯỜNG",
-        content: "171-180"
+        fromTo: "171-180",
+        isCompleted: false,
+        content: {
+            contentId: 12,
+            questions: questionDB[12],
+            answers: [],
+        }
     },
     {
-        id: 14,
+        lessonId: 13,
         title: "THIỂU DỤC TRI TÚC",
-        content: "181-191"
+        fromTo: "181-191",
+        isCompleted: false,
+        content: {
+            contentId: 13,
+            questions: questionDB[13],
+            answers: [],
+        }
     },
     {
-        id: 15,
+        lessonId: 14,
         title: "NHÂN QUẢ",
-        content: "192-202"
+        fromTo: "192-202",
+        isCompleted: false,
+        content: {
+            contentId: 14,
+            questions: questionDB[14],
+            answers: [],
+        }
     },
     {
-        id: 16,
+        lessonId: 15,
         title: "LUÂN HỒI",
-        content: "203-208"
+        fromTo: "203-208",
+        isCompleted: false,
+        content: {
+            contentId: 15,
+            questions: questionDB[15],
+            answers: [],
+        }
     },
     {
-        id: 17,
+        lessonId: 16,
         title: "THẬP THIỆN",
-        content: "209-219"
+        fromTo: "209-219",
+        isCompleted: false,
+        content: {
+            contentId: 16,
+            questions: questionDB[16],
+            answers: [],
+        }
     },
     {
-        id: 18,
+        lessonId: 17,
         title: "TỨ NHIẾP PHÁP",
-        content: "220-225"
+        fromTo: "220-225",
+        isCompleted: false,
+        content: {
+            contentId: 17,
+            questions: questionDB[17],
+            answers: [],
+        }
     },
     {
-        id: 19,
+        lessonId: 18,
         title: "LỤC HÒA",
-        content: "226-231"
+        fromTo: "226-231",
+        isCompleted: false,
+        content: {
+            contentId: 18,
+            questions: questionDB[18],
+            answers: [],
+        }
     },
     {
-        id: 20,
+        lessonId: 19,
         title: "TỊNH ĐỘ",
-        content: "232-250"
+        fromTo: "232-250",
+        isCompleted: false,
+        content: {
+            contentId: 19,
+            questions: questionDB[19],
+            answers: [],
+        }
     },
 ]
