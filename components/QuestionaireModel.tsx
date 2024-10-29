@@ -14,9 +14,8 @@ export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
   const [correct, setCorrect] = useState<boolean>();
   const [ansCheck, setAnsCheck] = useState<boolean>();
 
-  console.log(questions)
-
   useEffect(() => {
+    setAnswers(currentLesson.content.answers);
     setQuestions(currentLesson.content.questions)
   }, [lessonId])
 

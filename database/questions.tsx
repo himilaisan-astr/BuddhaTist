@@ -302,22 +302,369 @@ export const questionDB = [
             ],
             correctOption: 0,
         },
-        // paste
         {
-            id: 0,
-            question: "",
+            id: 26,
+            question: "Thái tử Tất Đạt Đa thấy người bệnh đau đớn ở cửa thành nào?",
             options:
             [
-                "",
-                "",
-                "",
-                ""
+                "Cửa thành Đông",
+                "Cửa thành Nam",
+                "Cửa thành Tây",
+                "Cửa thành Bắc"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 27,
+            question: "Trước khi quyết định xuất gia, thái tử Tất Đạt Đa gặp ai ở cửa Tây của thành Ca Tỳ La Vệ?",
+            options:
+            [
+                "Ông già tóc bạc, răng rụng, mắt mờ, tai điếc, lưng còng",
+                "Người bệnh khốc khan rên siết, đau đớn",
+                "Người chết nằm giữa đường, ruồi, kiến bu bám",
+                "Vị tu sĩ tướng mạo nghiêm trang, điềm tĩnh an nhiên"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 28,
+            question: "Thái tử Tất Đat Đa gặp ai ở cửa Bắc của thành Ca Tỳ La Vệ?",
+            options:
+            [
+                "Một người thợ săn",
+                "Một người chết",
+                "Một vị tu sĩ tướng mạo trang nghiêm",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 29,
+            question: "Thái tử Tất Đạt Đa thổ lộ với ai nỗi niềm mong tiềm ánh đạo?",
+            options:
+            [
+                "Tiên nhân A Tư Đà",
+                "Công chúa Da Du Đà La",
+                "Đạo sĩ A La Lam",
+                "Đạo sĩ Uất Đầu Lam Phất"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 30,
+            question: "Vua Tịnh Phạn dùng cách nào để ràng buộc thái tử bỏ chí xuất gia?",
+            options:
+            [
+                "Xây dựng 3 cung điện nguy nga tráng lệ, có nhiều người hầu hạ",
+                "Ép hôn, để thái tử mê đắm dục lạc",
+                "Hứa truyền ngôi vua sớm cho thái tử",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 31,
+            question: "Khi vua Tịnh Phạn không đồng ý cho xuất gia, thái tử Tất Đạt Đa đã yêu cầu vua cha những gì?",
+            options:
+            [
+                "Cho con trẻ mãi không già, khỏe mãi không bệnh",
+                "Cho con trẻ mãi không già, khỏe mãi không bệnh, sống hòai không chết",
+                "Cho con không già, không bệnh, không chết và tất cả chúng sanh hết khổ",
+                "Cho con không già, không bệnh, được xuất gia và tất cả chúng sanh hết khổ"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 32,
+            question: "Thái tử Tất Đạt Đa cùng ngựa Kiền Trắc và Xa Nặc vượt thành xuất gia ở cửa thành nào?",
+            options:
+            [
+                "Cửa thành Đông",
+                "Cửa thành Nam",
+                "Cửa thành Tây",
+                "Cửa thành Bắc"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 33,
+            question: "Thái tử Tất Đạt Đa vượt thành xuất gia vào thời điểm nào?",
+            options:
+            [
+                "Buổi sáng",
+                "Buổi chiều",
+                "Buối tối",
+                "Nửa đêm"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 34,
+            question: "Theo Phật học Phổ thông, thái tử Tất Đạt Đa xuất gia ngày nào?",
+            options:
+            [
+                "Mùng 8/2 âm lịch",
+                "Mùng 8/4 âm lịch",
+                "Mùng 15/4 âm lịch",
+                "Mùng 8/12 âm lịch"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 35,
+            question: "Đức Phật đã chứng tam minh gồm những gì?",
+            options:
+            [
+                "Túc mệnh thông, thiên nhãn minh, lậu tận diện",
+                "Túc mệnh minh, thiên nhãn minh, lậu tận minh",
+                "Túc mệnh minh, thiên nhãn minh, lậu tận thông",
+                "Túc mệnh thông, thiên nhãn thông, lậu tận thông"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 36,
+            question: "Sau 49 ngày đêm thiền định, Đức Phật đã thành đạo ở đâu?",
+            options:
+            [
+                "Dưới cây Vô Ưu",
+                "Dưới cội Bồ đề",
+                "Dưới cây Ta la",
+                "Dưới cây Asoka"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 37,
+            question: "Theo Phật giáo Bắc truyền, Đức Phật thành đạo ngày nào?",
+            options:
+            [
+                "Ngày 8/2 AL",
+                "Ngày 12/4 AL",
+                "Ngày 15/12 AL",
+                "Ngày 8/12 AL"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 38,
+            question: "Thân Đức Phật có bao nhiêu tướng tốt, bao nhiêu vẻ đẹp?",
+            options:
+            [
+                "18 tướng tốt, 49 vẻ đẹp",
+                "32 tướng tốt, 72 vẻ đẹp",
+                "32 tướng tốt, 80 vẻ đẹp",
+                "49 tướng tốt, 80 vẻ đẹp"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 39,
+            question: "Sau khi thành đạo, Đức Phật an trú Bồ Đề Đạo Tràng thêm bao lâu?",
+            options:
+            [
+                "7 ngày",
+                "21 ngày",
+                "35 ngày",
+                "49 ngày"
+            ],
+            correctOption: 3,
+        },
+    ],
+    [
+        {
+            id: 40,
+            question: "Vì sao Đức Phật quyết định chuyển bánh xe pháp?",
+            options:
+            [
+                "Vì chúng sanh đều có Phật tánh",
+                "Vì bản tính thanh tịnh của chúng sanh như hoa sen",
+                "Vì chúng sanh cõi Ta bà có thể chứng đạo như ngài",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 41,
+            question: "Sau khi thành đạo, Đức Phật hóa độ những vị nào đầu tiên?",
+            options:
+            [
+                "Nhóm ông Kiều Trần Như",
+                "Nhóm ông Da Xá",
+                "Vua Tần Bà Xa La",
+                "Vua Tịnh Phạn"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 42,
+            question: "Đức Phật thuyết pháp độ nhóm ông Kiều Trần Như ở nơi nào?",
+            options:
+            [
+                "Vườn Lâm Tỳ Ny",
+                "Vườn Lộc Uyển",
+                "Vườn Trúc Lâm",
+                "Vườn Cấp Cô Độc"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 43,
+            question: "Theo Phật học Phổ thông, Đức Phật chuyển Pháp luân với bài pháp đầu tiên là gì?",
+            options:
+            [
+                "Tứ Diệu Đế",
+                "Tứ Chánh Cần",
+                "Tứ Như Ý Túc",
+                "Tứ Vô Lượng Tâm"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 44,
+            question: "Đức Phật thuyết pháp độ nhóm ông Kiều Trần Như bài pháp thứ hai tên gì?",
+            options:
+            [
+                "Tứ Diệu đế",
+                "Vô Ngã tướng",
+                "Chuyển Pháp luân",
+                "Tam Vô Lậu học"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 45,
+            question: "Tam bảo lần đầu tiên xuất hiện tại địa điểm nào?",
+            options:
+            [
+                "Vườn Lâm Tỳ Ny",
+                "Vườn Lộc Uyển",
+                "Vườn Trúc Lâm",
+                "Vườn Cấp Cô Độc"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 46,
+            question: "Mùa hạ đầu tiên tại vườn Lộc Uyển Đức Phật độ được bao nhiêu Thánh đệ tử?",
+            options:
+            [
+                "5 đệ tử",
+                "6 đệ tử",
+                "60 đệ tử",
+                "80 đệ tử"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 47,
+            question: "Đức Phật hàn phục vị Bà La Môn thờ thần lửa cùng với 500 đệ tử xin xuất gia trở thành Tỳ Kheo đó là ai?",
+            options:
+            [
+                "Tôn giả Đại Ca Diếp",
+                "Tôn giả U Lâu Tần Loa Ca Diếp",
+                "Tôn giả Già Da Ca Diếp",
+                "Tôn giả Na Đề Ca Diếp"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 48,
+            question: "Sự hóa độ của Đức Phật như thế nào?",
+            options:
+            [
+                "Theo thứ lớp căn cơ",
+                "Tùy phương tiện",
+                "Tinh thần bình đẳng",
+                "Tùy phương tiện, theo thứ lớp căn cơ và tinh thần bình đẳng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 49,
+            question: "Vị vua nào cúng dường vườn Ngự Uyển cho Đức Phật và Tăng đoàn làm nơi trú ngụ?",
+            options:
+            [
+                "Vua Thiện Giác",
+                "Vua Tịnh Phạn",
+                "Vua Tần Bà Xa La",
+                "Vua A Xà Thế"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 50,
+            question: "Ngôi Tinh xá đầu tiên cúng dường cho Đức Phật và Tăng đoàn được đặt tên là gì?",
+            options:
+            [
+                "Tinh xá Trúc Lâm",
+                "Tinh xá Kỳ Viên",
+                "Giảng đường Trùng Cát",
+                "Giảng đường Đông Cát"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 51,
+            question: "Tôn giả nào tác động, khiến Xá Lợi Phất phát tâm xuất gia theo Đức Phật tu học?",
+            options:
+            [
+                "Tôn giả Ác Bệ",
+                "Tôn giả Thập Lực Ca Diếp",
+                "Tôn giả Bạc Đề",
+                "Tôn giả Ma Ha Nam"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 52,
+            question: "Hai tôn giả nào hướng dẫn 250 vị ngoại đạo về làm đệ tử Đức Phật?",
+            options:
+            [
+                "Tôn giả Đại Ca Diếp và Xá Lợi Phất",
+                "Tôn giả Xá Lợi Phất và Mục Kiền Liên",
+                "Tôn giả Đại Ca Diếp và Mục Kiền Liên",
+                "Tôn giả Xá Lợi Phất và A Nan"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 53,
+            question: "Thí chủ nào đã trải vàng mua đất xây cất Tinh xá cúng dường Đức Phật và Tăng đoàn?",
+            options:
+            [
+                "Trưởng giả Cấp Cô Độc",
+                "Thái tử Kỳ Đà",
+                "Nữ thí chủ Tỳ Xá Khư",
+                "Ông Thuần Đà"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 54,
+            question: "Ai cúng dường cây cho Đức Phật và cây cho Tinh xá Kỳ Viên?",
+            options:
+            [
+                "Trưởng giả Cấp Cô Độc",
+                "Thái tử Kỳ Đà",
+                "Vua Ba Tư Nặc",
+                "Nữ đại thí chủ Tỳ Xá Khư"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 55,
+            question: "Đức Phật cử ai hướng dẫn Cấp Cô Độc xây dựng Tinh xá Kỳ Viên?",
+            options:
+            [
+                "Tôn giả Xá Lợi Phất",
+                "Tôn giả Mục Kiền Liên",
+                "Tôn giả Đại Ca Diếp",
+                "Tôn giả A Nan"
             ],
             correctOption: 0,
         }
-        
     ],
-    [],
     [],
     [],
     [],
