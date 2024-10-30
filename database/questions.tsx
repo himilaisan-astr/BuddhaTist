@@ -1161,19 +1161,214 @@ export const questionDB = [
     ],
     [
         {
-            id: 0,
-            question: "",
+            id: 97,
+            question: "Theo Phật học Phổ thông, Phật tử tại gia quy y và thọ trì bao nhiêu giới?",
             options:
             [
-                "",
-                "",
-                "",
-                ""
+                "5 giới",
+                "8 giới",
+                "10 giới",
+                "48 giới"
             ],
             correctOption: 0,
+        },
+        {
+            id: 98,
+            question: "Ngũ giới gồm những giới nào?",
+            options:
+            [
+                "Không sát sanh, không trộm cắp, không tà dâm, không nói dối, bán uổng rượu",
+                "Không giết hại, không trộm cướp, không dâm, không nói sai, không uống rượu",
+                "Không sát nhân, không trộm cắp, không tà dâm, không nói dối, không uống rượu",
+                "Không sát sanh, không trộm cắp, không tà dâm, không nói dối, không uống rượu"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 99,
+            question: "Trong ngũ thừa, ngũ giới thuộc thừa nào?",
+            options:
+            [
+                "Nhân thừa",
+                "Thiên thừa",
+                "Thanh văn thừa",
+                "Duyên giác thừa"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 100,
+            question: "Người thọ trì ngũ giới được lợi ích gì?",
+            options:
+            [
+                "Ngăn ngừa chúng ta làm điều sai trái",
+                "Đem lại an vui, đem lại hạnh phúc cho gia đình",
+                "Đem lại thanh bình thịnh vượng cho quốc gia",
+                "Lợi ích thiết thực cho bản thân, gia đình và xã hội"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 101,
+            question: "Vì sao Phật tử phải giữ giới không sát sanh?",
+            options:
+            [
+                "Vì yêu thương mạng sống của muôn loài",
+                "Vì chúng ta và chúng sanh đều là quyến thuộc",
+                "Vì mọi sinh vật đều tham sống sợ chết",
+                "Đáp án A, B, C đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 102,
+            question: "Hình thức tích cực giữ giới không sát sinh là gì?",
+            options:
+            [
+                "Ăn chay",
+                "Phóng sinh",
+                "Giữ gìn môi sinh",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 103,
+            question: "Nguyên nhân đức Phật chế giới không sát sinh?",
+            options:
+            [
+                "Tôn trọng sự công bằng",
+                "Tôn trọng Phật tánh bình đẳng",
+                "Nuôi dưỡng lòng từ bi và tránh nhân quả báo ứng oán thù",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 104,
+            question: "Lợi ích của việc giữ giới không sát sinh là gì?",
+            options:
+            [
+                "Tăng trưởng lòng từ bi",
+                "Tránh được nhân quả báo ứng, oán thù",
+                "Không ảnh hưởng xấu đến sức khỏe và tuổi thọ",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 105,
+            question: "Vì lý do gì đức Phật cấm trộm cướp?",
+            options:
+            [
+                "Tôn trọng sự công bằng",
+                "Tôn trọng sự bình đẳng",
+                "Nuôi dưỡng lòng từ và tránh nghiệp báo oán thù",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 106,
+            question: "Thế nào gọi là trộm cướp?",
+            options:
+            [
+                "Tài vật của người không cho mà cướp lấy, cưỡng ép, lừa gạt và chiếm đoạt",
+                "Từ vật quý giá đến cây kim, ngọn cỏ người ta không cho mà lấy",
+                "Trốn thuế, tham nhũng, biến của công thành của riêng",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 107,
+            question: "Lợi ích của việc giữ giới không trộm cướp là gì?",
+            options:
+            [
+                "Được phước báu giàu sang sung sướng",
+                "Không bị mất tài sản của mình",
+                "Không bị luật pháp truy tố, trừng phạt và các hậu quả xấu khác",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 108,
+            question: "Vì sao đức Phật cấm không tà dâm?",
+            options:
+            [
+                "Tôn trọng sự công bình, tránh oán thù và quả báo xấu xa",
+                "Tránh oán thù và quả báo xấu xa",
+                "Tôn trọng sự công bình, bảo vệ hạnh phúc gia đình; tránh oán thù và quả báo xấu xa",
+                "Tôn trọng sự công bình, tránh oán thù và quả báo xấu xa"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 109,
+            question: "Lợi ích của việc giữ giới không tà dâm là gì?",
+            options:
+            [
+                "Bảo vệ hạnh phúc gia đình của mình và của người",
+                "Tránh được các hình thức thù oán và quả báo xấu",
+                "Tránh được những chứng bệnh lây nhiễm",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 110,
+            question: "Giới thứ tư trong ngũ giới nói sai sự thật gồm những giới nào?",
+            options:
+            [
+                "Nói dối, nói lưỡi hai chiều, nói lời hung ác",
+                "Nói dối, nói thêu dệt, nói lưỡi hai chiều, nói lời hung ác",
+                "Nói thêu dệt, nói lưỡi hai chiều, nói lời hung ác",
+                "Nói dỗi, nói thêu dệt, nói tục, nói lời hung ác"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 111,
+            question: "Vì sao đức Phật cấm không được nói sai sự thật?",
+            options:
+            [
+                "Tôn trọng sự thật, bảo tồn sự trung tính trong xã hội, nuỗi dưỡng lòng từ bi và tránh nghiệp báo khổ đau",
+                "Tôn trọng Phật tánh, lòng từ bi và tránh nghiệp báo khổ đau",
+                "Tôn trọng sự thật, tôn trọng Phật tánh và tránh nghiệp báo khổ đau",
+                "Tôn trọng sự thật, tôn trọng sự công bằng, tôn trọng lòng từ bi"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 112,
+            question: "Lợi ích của việc giữ giới không nói dối là gì?",
+            options:
+            [
+                "Tăng uy tính, tránh được các hậu quả xấu ác",
+                "Miệng thường thơm sạch",
+                "Không bị dư lượng đàm tiếu, xã hội cô lập",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 113,
+            question: "Lợi ích của giữ giới không uống rượu là gì?",
+            options:
+            [
+                "Bảo toàn hạt giống trí huệ, ngăn ngừa tội lỗi",
+                "Không bị quở trách, chê cười",
+                "Có sức khỏe, tư cách và sống có trách nhiệm",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
         }
     ],
-    [],
+    [
+        // bai 6
+        
+    ],
     [],
     [],
     [],
