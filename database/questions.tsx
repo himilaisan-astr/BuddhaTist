@@ -663,10 +663,516 @@ export const questionDB = [
                 "Tôn giả A Nan"
             ],
             correctOption: 0,
+        },
+        {
+            id: 56,
+            question: "Đệ tử nào của Đức Phật khi còn tại gia, sống bên cạnh mỹ nhân lòng không động tà niệm?",
+            options:
+            [
+                "Tôn giả Xá Lợi Phất",
+                "Tôn giả Mục Kiền Liên",
+                "Tôn giả Đại Ca Diếp",
+                "Tôn giả Đại Ca Chiên Diên"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 57,
+            question: "Khi về thăm Ca Tỳ La Vệ, vua Tịnh Phạn yêu cầu điều gì và Đức Phật đã chấp thuận?",
+            options:
+            [
+                "Giao gia tài cho La Hầu La",
+                "Không được đi khất thực trong thành",
+                "Sau này độ ai xuất gia thì phải được sự chấp thuận của cha mẹ",
+                "Đáp án A và B đều đúng"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 58,
+            question: "Theo Phật học Phổ thông, khi vua Tịnh Phạn sắp băng hà, Đức Phật thuyết pháp bài gì cho đức vua?",
+            options:
+            [
+                "Vô thường, khổ, không, vô ngã",
+                "Chư hành vô thường, chư pháp vô ngã và Niết bàn tịch tịnh",
+                "Khổ, vô thường, vô ngã",
+                "Thân vô thường, tâm vô thường và hoàn cảnh vô thường"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 59,
+            question: "Khi Tôn giả A Nan gặp nạn Ma Đăng Già, Đức Phật thuyết kinh gì?",
+            options:
+            [
+                "Kinh Hoa Nghiêm",
+                "Kinh Lăng Nghiêm",
+                "Kinh Lăng Già",
+                "Kinh Pháp Hoa"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 60,
+            question: "Tỳ kheo ni đầu tiên chứng quả A la hán là vị nào?",
+            options:
+            [
+                "Bà Ma Ha Ba Xà Ba Đề",
+                "Bà Da Du Đà La",
+                "Bà Khế Ma",
+                "Bà Mạt Lợi"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 61,
+            question: "Vị đệ tử nào của Đức Phật được tôn xưng là (Trí huệ đệ nhất)",
+            options:
+            [
+                "Tôn giả Xá Lợi Phất",
+                "Tôn giả Mục Kiền Liên",
+                "Tôn giả Đại Ca Diếp",
+                "Tôn giả Phú Lâu Na"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 62,
+            question: "Vị thị giả nào theo hầu Đức Phật được tôn xưng là (Đa văn đệ nhất)",
+            options:
+            [
+                "Tôn giả Kiều Trần Như",
+                "Tôn giả Nan Đà",
+                "Tôn giả A Nan",
+                "Tôn giả Phú Lâu Na"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 63,
+            question: "Đại đệ tử nào của Đức Phật được tôn xưng là (Mật hạnh đệ nhất)",
+            options:
+            [
+                "Tôn giả Đại Ca Diếp",
+                "Tôn giả La Hầu La",
+                "Tôn giả U Ba Ly",
+                "Tôn giả A Nan"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 64,
+            question: "Đại đệ tử nào của Đức Phật được tôn xưng là (Thuyết pháp đệ nhất)",
+            options:
+            [
+                "Tôn giả Kiều Trần Như",
+                "Tôn giả Nan Đà",
+                "Tôn giả A Nan",
+                "Tôn giả Phú Lâu Na"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 65,
+            question: "Vị đại đệ tử nào của Đức Phật được tôn xưng là (Giới luật đệ nhất)",
+            options:
+            [
+                "Tôn giả La Hầu La",
+                "Tôn giả A Nan",
+                "Tôn giả U Ba Ly",
+                "Tôn giả A Na Luật"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 66,
+            question: "Vị đại đệ tử nào của Đức Phật được tôn xưng là (Thiên nhãn đệ nhất)",
+            options:
+            [
+                "Tôn giả Kiều Trần Như",
+                "Tôn giả A Nan Đà",
+                "Tôn giả A Na Luật",
+                "Tôn giả Phú Lâu Na"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 67,
+            question: "Đại đệ tử nào của Đức Phật được tôn xưng (Giả không đệ nhất)",
+            options:
+            [
+                "Tôn giả Xá Lợi Phất",
+                "Tôn giả Mục Kiền Liên",
+                "Tôn giả Đại Ca Diếp",
+                "Tôn giả Tu Bồ Đề"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 68,
+            question: "Năm thời thuyết pháp, Đức Phật nói những kinh gì?",
+            options:
+            [
+                "Hoa Nghiêm, A Hàm, Phương Đẳng, Bát Nhã, Pháp Hoa, Niết Bàn",
+                "Lăng Nghiêm A Hàm, Phương Đẳng, Bát Nhã, Pháp Hoa",
+                "Lăng Nghiêm, Di Dáo, Phương Đẳng, Pháp Hoa",
+                "Hoa Nghiêm, Di Dáo, Phương Đẳng, Bát Nhã, Pháp Hoa"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 69,
+            question: "Người đệ tử cuối cùng chứng thánh quả A la hán của Đức Phật là ai?",
+            options:
+            [
+                "Tôn giả A Na Đề Bà",
+                "Tôn giả La Hầu La",
+                "Tôn giả Di Dà Ca",
+                "Tôn giả Tu Bạt Đà La"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 70,
+            question: "Ai là người cúng dường Đức Phật bữa cơm cuối cùng?",
+            options:
+            [
+                "Ông Cấp Cô Độc",
+                "Ông Tu Đạt Đa",
+                "Vua Ba Tư Nặc",
+                "Ông Thuần Đà"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 71,
+            question: "Trước khi nhập Niết bàn, Đức Phật di huấn điều gì cho các đệ tử?",
+            options:
+            [
+                "Phải tôn sư trọng đạo, nghe theo lời thầy chỉ dạy",
+                "Phải tôn kính Phật, Pháp, Tăng như khi Đức Phật còn tại thế",
+                "Phải tôn trọng giới luật, lấy giới luật làm thầy",
+                "Không có câu nào đúng trọn vẹn"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 72,
+            question: "Những lời dạy sau cùng của Đức Phật được ghi dạy trong quyển kinh nào?",
+            options:
+            [
+                "Kinh Lăng Nghiêm",
+                "Kinh Hoa Nghiêm",
+                "Kinh Pháp Hoa",
+                "Kinh Di Dáo"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 73,
+            question: "Theo Phật học Phổ thông, Đức Phật nhập Niết bàn ở đâu?",
+            options:
+            [
+                "Dưới cây Bô U",
+                "Dưới cội Bồ đề",
+                "Rừng cây Tất Bát La",
+                "Rừng Sa La"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 74,
+            question: "Theo Phật giáo Bắc truyền, Đức Phật nhập Niết bàn ngày nào?",
+            options:
+            [
+                "Ngày 8/2 AL",
+                "Ngày 15/2 AL",
+                "Ngày 15/4 AL",
+                "Ngày 8/12 AL"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 75,
+            question: "Theo lịch sử Phật giáo Bắc truyền, Đức Phật niết bàn khi bao nhiêu tuổi?",
+            options:
+            [
+                "75 tuổi",
+                "80 tuối",
+                "90 tuối",
+                "100 tuối"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 76,
+            question: "Sau khi Phật nhập Niết bàn, ai kế thừa Đức Phật lãnh đạo giáo đoàn?",
+            options:
+            [
+                "Tôn giả Xá Lợi Phất",
+                "Tôn giả Đại Ca Diếp",
+                "Tôn giả A Nan",
+                "Tập thể lãnh đạo"
+            ],
+            correctOption: 1,
         }
     ],
-    [],
-    [],
+    [
+        {
+            id: 77,
+            question: "Quy y nghĩa là gì?",
+            options:
+            [
+                "Đến chùa tụng kinh",
+                "Đến chùa làm công quả",
+                "Xuất gia tu học",
+                "Trở về nương tụa Tam bảo"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 78,
+            question: "Tam bảo gồm những gì?",
+            options:
+            [
+                "Giới, Định, Tuệ",
+                "Vô thường, vô ngã, Niết bàn",
+                "Chỉ ba ngôi quý báo: Phật, Pháp, Tăng",
+                "Văn, Tư, Tu"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 79,
+            question: "Ba bậc Tam bảo gồm những gì",
+            options:
+            [
+                "Thế gian trụ thì Phật bảo, xuất thế gian Pháp bảo, đồng thể Tam bảo",
+                "Đồng thể Phật bảo, xuất thế gian Pháp bảo, thế gian trụ trì Tam bảo",
+                "Xuất thế gian Phật bảo, xuất thế gian Pháp bảo, xuất thế gian Tam Bảo",
+                "Đồng thể Tam bảo, xuất thế gian Tam bảo, thế gian trụ trì Tam bảo"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 80,
+            question: "Đồng thể Tam bảo gồm những gì?",
+            options:
+            [
+                "Đồng thể Phật bảo, xuất thế gian Pháp bảo, đồng thể Tang bảo",
+                "Đồng thể Phật bảo, đồng thể Pháp bảo, đồng thể Tăng bảo",
+                "Xuất thế gian Phật bảo, thế gian trụ trì Pháp bảo, đồng thể Tăng bảo",
+                "Xuất thế gian Phật bảo, xuất thế gian Pháp bảo, xuất thé gian Tăng bảo"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 81,
+            question: "Đồng thể Phật bảo là gì?",
+            options:
+            [
+                "Tất cả chúng sanh đều cùng một thể tánh",
+                "Tất cả chúng sanh đều có Phật tánh",
+                "Tất cả chúng sanh cùng chư Phật đồng một tánh sáng suốt",
+                "Chư Phật cùng chúng sanh đồng một thể tánh hòa hợp"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 82,
+            question: "Đồng thể Pháp bảo là gì?",
+            options:
+            [
+                "Chư Phật cùng chúng sanh đồng một thể tánh sáng suốt",
+                "Tất cả chúng sanh đồng một Pháp tánh bình đẳng",
+                "Chư Phật cùng chúng sanh đồng một Pháp tánh từ bi, bình đẳng",
+                "Chư Phật cùng chúng sanh đồng một thể tánh hòa hợp"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 83,
+            question: "Đồng thể Tăng bảo là gì?",
+            options:
+            [
+                "Tất cả chúng sanh đồng một thể tánh hòa hợp",
+                "Chư Phật và chúng sanh đồng một thể tánh hòa hợp",
+                "Chư Phật và chúng sanh đồng một thể tánh thanh tịnh",
+                "Chư Phật và chúng sanh đồng một thể tánh thanh tịnh, sự lý hòa hợp"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 84,
+            question: "Xuất thế gian Tam bảo gồm những gì?",
+            options:
+            [
+                "Xuất thế gian Phật bảo, xuất thế gian Pháp bảo, thế gian Tăng bảo",
+                "Đồng thể Phật bảo, xuất thế gian Pháp bảo, đồng thể Tăng bảo",
+                "Xuất thế gian Phật bảo, thế gian trụ trì Pháp bảo, đồng thể Tăng bảo",
+                "Xuất thế gian Phật bảo, xuất thế gian Pháp bảo, xuất thế gian Tăng bảo"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 85,
+            question: "Xuất thế gian Phật bảo nhằm chỉ cho ai?",
+            options:
+            [
+                "Bậc có trách nhiệm đối với bản thân và gia đình",
+                "Bậc có trách nhiệm xã hội và nhân loại",
+                "Bậc đã tự giải thoát ra khỏi sự ràng buộc của thế gian",
+                "Bậc có trách nhiệm đối với Phật pháp"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 86,
+            question: "Xuất thế gian Pháp bảo là chỉ cho gì?",
+            options:
+            [
+                "Chánh Pháp của Phật có công năng thoát khỏi ràng buộc thế gian",
+                "Giáo lý Tứ Diệu Đế, Thập nhị nhân duyên, ...",
+                "Lời dạy của bậc Thánh xuất thế",
+                "Bao gồm đáp án A và B"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 87,
+            question: "Thế gian trụ trì Tam bảo gồm những gì?",
+            options:
+            [
+                "Thế gian trụ trì Phật bảo, thế gian trụ trì Pháp bảo, thế gian trụ trì Tăng bảo",
+                "Thế gian trụ trì Phật bảo, xuất thế gian Pháp bảo, thế gian trụ trì Tăng bảo",
+                "Xuất thế gian Phật bảo, thế gian trụ trì Pháp bảo, đồng thế Tăng bảo",
+                "Thế gian trụ trì Phật bảo, xuất thế gian Pháp bảo, xuất thế gian Tăng bảo"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 88,
+            question: "Thế gian trụ trì Phật bảo là chỉ cho những gì?",
+            options:
+            [
+                "Xá lợi Đức Phật, tranh tượng Phật",
+                "Ba tạng giáo điển của Phật",
+                "Giới luật Đức Phật giới định",
+                "Thầy trụ trì thay thế Đức Phật hoằng truyền chánh pháp"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 89,
+            question: "Quy y Tam bảo có nghĩa là gì?",
+            options:
+            [
+                "Trở về với ba ngôi báu tự tâm",
+                "Đến chùa đăng ký quy y Tam bảo",
+                "Phật, Pháp, Tăng là ba ngôi báu ở thế gian",
+                "Trở về nương tựa ba ngôi báu: Phật bảo, Pháp bảo, Tăng bảo"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 90,
+            question: "Lợi ích của việc quy y Tam bảo là gì?",
+            options:
+            [
+                "Sống tốt hơn, mạnh khỏe và bình an",
+                "Khỏi đọa Địa ngục, Ngạ quỷ, Súc sinh",
+                "Kiếp sau được làm người hay sanh lên cõi trời",
+                "Bao gồm đáp án A và B"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 91,
+            question: "Sau khi được thọ Tam quy Ngũ giới, Phật tử nên làm gì?",
+            options:
+            [
+                "Thường đi chùa học giáo lý và tham gia các khóa tu",
+                "Tham gia các Phật sự và chương trình tự thiện xã hội",
+                "Thiết lập bàn thờ Phật tại nhà và thường tụng kinh để mở mang trí tuệ",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 92,
+            question: "Quy y Phật bảo khỏi đọa vào đâu?",
+            options:
+            [
+                "A Tu La",
+                "Địa ngục",
+                "Ngạ quỷ",
+                "Súc sinh"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 93,
+            question: "Quy y Pháp khỏi đọa vào đâu?",
+            options:
+            [
+                "A Tu La",
+                "Địa ngục",
+                "Ngạ quỷ",
+                "Súc sinh"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 94,
+            question: "Phật tử quy y Phật thì không quy y gì?",
+            options:
+            [
+                "Không được đi Đình, Miếu",
+                "Thiên, Thần, Quỷ, Vật",
+                "Ngoại đạo tà giáo",
+                "Thầy tà, bạn dữ"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 95,
+            question: "Phật tử quy y Pháp thì không quy y gì?",
+            options:
+            [
+                "Thiên, Thần",
+                "Quỷ, Vật",
+                "Ngoại đạo tà giáo",
+                "Thầy tà, bạn dữ"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 96,
+            question: "Phật tử quy y Tăng thì không quy y gì?",
+            options:
+            [
+                "Thiên, Thần, Quỷ, Vật",
+                "Ngoại đạo",
+                "Tà giáo",
+                "Thầy tà, bạn dữ"
+            ],
+            correctOption: 3,
+        }
+    ],
+    [
+        {
+            id: 0,
+            question: "",
+            options:
+            [
+                "",
+                "",
+                "",
+                ""
+            ],
+            correctOption: 0,
+        }
+    ],
     [],
     [],
     [],
