@@ -1367,15 +1367,798 @@ export const questionDB = [
     ],
     [
         // bai 6
-        
+        {
+            id: 114,
+            question: "Xám hối nghĩa là gì?",
+            options:
+            [
+                "Ăn năn lỗi trước và chừa bỏ lỗi sau",
+                "Xin tội để chư Phật tha thứ",
+                "Hứa không tạo thêm tội lỗi nữa",
+                "Hối hận những lỗi lầm được tạo ra"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 115,
+            question: "Thế nào là tác pháp xám hối?",
+            options:
+            [
+                "Đối trước tượng Phật bày tỏ lỗi lầm",
+                "Lập đàn tràng xám hối",
+                "Thỉnh chư Tăng thành khẩn bày tỏ lỗi lầm lỡ gây tạo",
+                "Phải thiết tha thỉnh chư Tăng chứng minh và thành khẩn bày tỏ lỗi lầm, nguyện về sau không tái phạm"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 116,
+            question: "Như thế nào là xám hối chân chính?",
+            options:
+            [
+                "Tự mình tạo tội thì tự mình ăn năn, chừa bỏ",
+                "Tội lỗi từ tâm tạo ra thì cũng phải từ tâm mà xám hối",
+                "Đối trước bậc thanh tịnh để xám hối tội lỗi",
+                "Gồm đáp án A và B"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 117,
+            question: "Pháp xám hối có mang lại hạnh phúc, an vui cho con người không?",
+            options:
+            [
+                "Có, vì xám hối có thể cải hóa lòng mình, làm cho mình may chứng quả",
+                "Có, vì xám hối có thể cải hóa lòng mình, làm cho đời sống cá nhân và xã hội tốt đẹp hơn",
+                "Không, vì hạnh phúc chỉ có khi có nhiều tiền của",
+                "Đáp án A và B"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 118,
+            question: "Lợi ích của việc xám hối như thế nào?",
+            options:
+            [
+                "Phật tử tha tội, ban phước",
+                "Tiêu trừ nghiệp chuognws và phát triển hạnh lành",
+                "Tâm hồn an vui",
+                "Được tăng trưởng phước đức"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 119,
+            question: "Tại sao phải phát triển hạnh lành",
+            options:
+            [
+                "Vì hạnh lành là cội nguồn của mọi công đức",
+                "Vì hạnh lành có thể đưa chúng sanh đến bờ giải thoát giác ngộ",
+                "Vì hạnh lành có thể giúp chúng sanh tiến lên bậc thánh hiền",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 0,
+        },        
     ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    [
+        // bài 7
+        {
+            id: 120,
+            question: "Mục đích của việc thờ Phật là gì?",
+            options:
+            [
+                "Thắp hương tụng niệm mỗi ngày sáu thời giống như các tự viện",
+                "Tỏ lòng tôn kính, tri ân và noi theo gương hạnh của đức Phật",
+                "Tôn trí bàn thờ trang nghiêm, đốt hương cầu nguyện mỗi ngày",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 121,
+            question: "Vì sao Đức Phật được nhân loại tôn thờ?",
+            options:
+            [
+                "Vì Ngài là người có đầy đủ phước đức và trí tuệ",
+                "Vì Ngài hy sinh hạnh phúc cá nhân, từ bỏ hưởng thụ cao sang ở thế gian, xuất gia tầm chân lý",
+                "Vì Ngài đã khéo vận dụng trí tuệ phương tiện để dẫn dắt chúng sanh ra khỏi sanh tử luân hồi",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 122,
+            question: "Thờ Phật như thế nào cho đúng?",
+            options:
+            [
+                "Có bàn thờ độc lập, cúng hoa quả, lễ bái, tụng niệm và hành trì lời Phật dạy",
+                "Có thể thờ chung một bàn thờ, Phật ở trên, gia tiên ở dưới",
+                "Thờ Phật để tạo góc tâm linh trong nhà, thể hiện tôn kính, thọ trì và thực tập",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 123,
+            question: "Người Phật tử tu pháp môn Tịnh độ, thờ Phật Thích Ca có được không?",
+            options:
+            [
+                "Không được, tu Tịnh độ thì phải thờ Phật Di Đà",
+                "Được. Nên thờ Phật Thich Ca vì ngài hiện là giáo chủ cõi Ta bà",
+                "Tịnh độ chỉ là phương pháp tu, không nhất thiết là chỉ thờ Phật Di Đà",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 124,
+            question: "Năm thứ hương cúng dường đức Phật về lý gồm những gì?",
+            options:
+            [
+                "Trầm hương, đàn hương, giáng hương, mộc hương, xạ hương",
+                "Tín hương, tấn hương, niệm hương, định hương, tuệ hương",
+                "Giới hương, định hương, huệ hương, giải thoát hương, giải thoát tri kiến hương",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 125,
+            question: "Ý nghĩa của việc lạy Phật là gì?",
+            options:
+            [
+                "Thể hiện sự cung kính đối với đức Phật",
+                "Thể hiện đời sống tôn giáo, tâm linh",
+                "Lạy Phật để Phật ban phước sống lâu, giàu có và quyền lực",
+                "Đáp án A và B đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 126,
+            question: "Lạy Phật như thế nào mới đúng?",
+            options:
+            [
+                "Khi lạy Phật hai bàn tay để ngửa hoặc úp và đặt trán ở khoảng giữa hai bàn tay",
+                "Khi lạy Phật, năm vóc sát đất, tâm nghĩ đến đức hạnh của ngài để học hỏi",
+                "Trước khi lễ Phật phải súc miệng, rửa mặt, thân thể sạch sẽ, y phúc trang nghiêm",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 3,
+        },
+    ],
+    [
+        // bài 8
+        {
+            id: 127,
+            question: "Mục đích của việc tụng kinh là gì?",
+            options:
+            [
+                "Cầu Tam bảo ban phước lành",
+                "Ôn lại những lời Phật dạy để ghi nhớ, hiểu biết và thực hành",
+                "Để tiêu trừ nghiệp chướng, cuộc sống giàu sang",
+                "Để mở mang tâm trí, tăng trưởng kiến thức"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 128,
+            question: "Để hiểu rõ lời Phật day, ba pháp 'Tụng kinh, trì chú và niệm Phật' người Phật tử nên hành trì pháp gì?",
+            options:
+            [
+                "Niệm Phật",
+                "Tụng kinh",
+                "Trì chú",
+                "Đáp án B và C"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 129,
+            question: "Tu cả ba phương diện 'tụng kinh, trì chú và niệm Phật' có được không?",
+            options:
+            [
+                "Không nên, chỉ chọn lựa một phương pháp mà tu cho tinh chuyên",
+                "Rất tốt, bởi vì ba phương diện này tuy không đồng mà kết qủa đều thù thắng",
+                "Tùy theo căn cơ và hoàn cảnh mà chọn phương diện nào cho thích hợp",
+                "Đáp án B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 130,
+            question: "Hiệu lực 'Đại Bi Chú' như thế nào?",
+            options:
+            [
+                "Sống được an lành, chết được vãn sanh",
+                "Mau hết tai nạn, cầu gì được đó",
+                "Thoát khỏi bệnh tật, tăng thêm tuổi thọ, mua bán thuận lợi",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 131,
+            question: "Lợi ích của niệm Phật là gì?",
+            options:
+            [
+                "Công đức tăng trưởng",
+                "Thân tâm an tịnh",
+                "Chư Phật hộ niệm",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 132,
+            question: "Vì sao Phật tử nên thường niệm Phật Di Đà?",
+            options:
+            [
+                "Để chuyển hóa vọng tưởng điên đảo, không nghĩ điều xằng bậy",
+                "Để cho tâm luôn được thanh tịnh an lạc",
+                "Cầu sanh Tịnh độ",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+    ],
+    [
+        // Bài 9
+        {
+            id: 133,
+            question: "Vì sao Đức Phật dạy ăn chay?",
+            options:
+            [
+                "Vì tăng cường sức khỏe, tránh nghiệp sát sanh",
+                "Vì ngon miện, dễ tiêu hóa, tăng sức khỏe và thêm tuổi thọ",
+                "Vì nuôi lòng từ bi, thương mạng sống, tránh quả báo xấu",
+                "Vì tiết kiệm tiền bạc và thời gian nấu nướng"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 134,
+            question: "Theo đạo Phật, ăn chay có lợi ích gì?",
+            options:
+            [
+                "Dễ tiêu hóa, tăng sức khỏe, thêm tuổi thọ",
+                "Phòng ngừa các chứng bệnh nan y, duy trì tuổi thọ",
+                "Tăng trưởng lòng từ bi, bình đẳng, tránh nghiệp sát sanh, phòng ngừa bệnh tật",
+                "Tránh quả báo luân hồi đền mạng"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 135,
+            question: "Cổ nhân nói: 'Vật dưỡng nhơn', theo đạo Phật câu này hợp lý không? Vì sao?",
+            options:
+            [
+                "Hợp lý, vì nếu không có động vật con người bị suy dinh dưỡng",
+                "Không hợp lý, vì mỗi chúng sanh đều có Phật tánh bình đẳng, không phải do mạnh hiếp yếu",
+                "Hợp lý, vì đó là lời nói được truyền lại",
+                "Cần nghiên cứu thêm"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 136,
+            question: "Theo Phật học Phổ thông, Lục trai là ăn chay vào 6 ngày trong tháng nào âm lịch?",
+            options:
+            [
+                "Mùng 1, 8, 14, 15, 19, 23",
+                "Mùng 8, 14, 15, 23, 29, 30 (tháng thiếu ngày 28, 29)",
+                "Mùng 1, 8, 14, 15, 23, 30 (tháng thiếu ngày 29)",
+                "Mùng 1, 8, 14, 15, 29, 30 (tháng thiếu ngày 28, 29)"
+            ],
+            correctOption: 2,
+        },
+    ],
+    [
+        // bai 10
+        {
+            id: 137,
+            question: "Bát quan trai giới là pháp tu dành cho đói tượng nào?",
+            options:
+            [
+                "Người tại gia áp dụng trong một ngày một đêm",
+                "Người cư sĩ tu xuất gia gieo duyên",
+                "Người cư sĩ vào chùa tập sự xuất gia",
+                "Người tại gia dõng mãnh tinh tấn"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 138,
+            question: "Mục đích của việc tu Bát quan trai giới là gì?",
+            options:
+            [
+                "Tu gieo duyên xuất gia",
+                "Lập hạnh giải thoát ngắn hạn",
+                "Để thực hành theo hạnh xuất gia",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 139,
+            question: "Bát quan trai giới dành cho phật tử áp dụng thời gian như thế nào?",
+            options:
+            [
+                "Là pháp tu của người tại gia, áp dụng trong 1 ngày 1 đêm",
+                "Là pháp tu tập sự xuất gia dành cho người cư sĩ trong 24 giờ",
+                "Là pháp tu giảm bớt sự dục vọng áp dụng trong 7 ngày",
+                "Đáp án A và B"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 140,
+            question: "Lợi ích của việc tu Bát quan trai giới là gì?",
+            options:
+            [
+                "Tập sự tu hạnh xuất gia",
+                "Thanh tịnh thân, khẩu, ý",
+                "Phát triển các hạnh lành",
+                "Đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 141,
+            question: "Giới thứ 3 trong Bát quan trai giới là gì?",
+            options:
+            [
+                "Không tà dâm",
+                "Không dâm dục",
+                "Không tà hạnh",
+                "Đáp án A và C đều đúng"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 142,
+            question: "Giới thứ 6 trong Bát quan trai giới là gì?",
+            options:
+            [
+                "Không đeo chuỗi anh lạc tràng hoa thơm",
+                "Không xoa ướp dầu thơm vào mình",
+                "Không đeo chuỗi anh lạc tràng hoa thơm, không xoa ướp dầu thơm vào mình",
+                "Không trang điểm và cất giữ tiền"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 143,
+            question: "Giới thứ 7 trong Bát quan trai giới là gì?",
+            options:
+            [
+                "Không ngồi trên giường cao tốt đẹp",
+                "Không ca múa hát xướng",
+                "Không được cố đi xem nghe",
+                "Không ngồi trên giường cao tốt đẹp, không làm trò nhạc, ca múa và cố đi xem nghe"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 144,
+            question: "Vì sao Phật tử không nên nằm ngồi giường cao đẹp, rộng lớn trong thời gian tu tập Bát quan trai giới?",
+            options:
+            [
+                "Kiệm phước và ngăn ngừa thân xác không cho buông lung",
+                "Để tránh mọi cảm nghĩ khoái lạc của giường cao rộng lớn",
+                "Để tránh cảm giác có thể kích thích lòng ham muốn bất chính của xác thân",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 145,
+            question: "Vì sao tu Bát quan trai giới không được ca múa hát xướng và cố đi xem nghe?",
+            options:
+            [
+                "Tránh vào ác đạo",
+                "Tránh bệnh tật",
+                "Tránh tâm tham đắm",
+                "Tránh loạn tâm thức"
+            ],
+            correctOption: 3,
+        },
+    ],
+    [
+        // bài 11
+        {
+            id: 146,
+            question: "Bổn phận của người Phật tử tại gia là gì?",
+            options:
+            [
+                "Có trách nhiệm đối với bản thân, gia đình, quyến thuộc",
+                "Có trách nhiệm đối với cá nhân, gia đình, xã hội và Phật pháp",
+                "Có trách nhiệm đối với bản thân, gia đình, xã hội, quốc gia và Tam bảo",
+                "Có trách nhiệm đối với gia đình, xã hội và Phật pháp"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 147,
+            question: "Người Phật tử thần thành nên làm gì?",
+            options:
+            [
+                "Nên nương tựa Phật, Pháp, Tăng và giữ năm giới",
+                "Nên thờ Phật, cúng Phật, tụng kinh, niệm Phật hằng ngày",
+                "Nên giữ giới hạnh, đi chùa, nghe pháp, ...",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 148,
+            question: "Sống có trách nhiệm với bản thân nghĩa là gì?",
+            options:
+            [
+                "Thực hành lối sống lành mạnh",
+                "Hoàn thiện bản thân là đủ, không cần quan tâm người khác",
+                "Tu tâm dưỡng tánh, trau dồi đức hạnh",
+                "Gồm đáp án A và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 149,
+            question: "Về cách xưng hô, Phật tử cùng gặp mặt nhau thì gọi thế nào cho đúng?",
+            options:
+            [
+                "Xưng hô theo tuổi tác như: ông, bà, cô, bác, anh, chị",
+                "Kêu Sư huynh, Sư tỷ, xưng pháp danh mình, v.v...",
+                "Chắp tay xá chào và niệm 'Mô Phật', hay 'A Di Đà Phật'",
+                "Gồm đáp án A và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 150,
+            question: "Bổn phận của cha mẹ đói với can cái theo kinh Thiện Sanh là gì",
+            options:
+            [
+                "Bắt buộc con giỏi hơn những đứa trẻ đồng trang lứa",
+                "Dạy con siêng năng học tập và thân cận người trí",
+                "Chu cấp cho con những gì con muốn",
+                "Không cho con làm việc nhà để có thời gian học hành"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 151,
+            question: "Bổn phận cuaur vợ đói với chồng theo kinh Thiện Sanh là gì?",
+            options:
+            [
+                "Kính yêu, hòa thuận, chia sẻ công việc với chồng",
+                "Quán xuyến công việc nhà",
+                "Giữ gìn tiết hạnh",
+                "Gồm đáp án A, B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 152,
+            question: "Bổn phận của chồng đối với vợ trong kinh Thiện Sanh là gì?",
+            options:
+            [
+                "Chỉ lo kiếm tiền nuôi sống gia đình",
+                "Giao tất cả việc nội trợ cho vợ quán xuyến",
+                "Yêu thương, lắng nghe, chia sẻ, quan tâm gia đình và thủy chung với vợ",
+                "Chồng là trụ cột gia đình nên vợ con pahir theo mọi quyết định từ chồng"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 153,
+            question: "Bổn phận đói với bà con thân thích trong kinh Thiện Sanh là gì?",
+            options:
+            [
+                "Chỉ biết lo gia đình mình, không xen vào chuyện người khác",
+                "Thăm hỏi khi người thân có bệnh, chia sẻ khi người thân gặp khó khăn",
+                "Khuyên can khi có người làm việc chẳng lành",
+                "Gồm đáp án B và C"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 154,
+            question: "Bổn phận của thầy đói với học trò trong kinh Thiện Sanh là gì?",
+            options:
+            [
+                "Làm tròn bổn phận của người thầy, hiểu hay không tùy học trò",
+                "Cần mãn dạy dỗ, tìm cách cho học trò hiểu bài và trở nên giỏi hơn mình",
+                "Học trò phải cung kính và tuân thủ ý kiến thầy",
+                "Không để học trò giỏi hơn thầy"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 155,
+            question: "Theo kinh Thiện Sanh, học trò phải có bổn phận với thầy như thế nào?",
+            options:
+            [
+                "Phải vâng lời và kính thầy như cha mẹ",
+                "Phải biết nhớ ơn thầy dù là không còn dạy mình nữa",
+                "Kính trọng khi thầy còn dạy",
+                "Gồm đáp án A và B"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 156,
+            question: "Khi đang cầm kinh mà muốn xá chào người khác Phật tử phải làm thế nào?",
+            options:
+            [
+                "Kẹp quyển kinh vào cánh tay và xá chào",
+                "Đặt kinh giữa hai tay và xá chào",
+                "Một tay cầm kinh một tay chào",
+                "Ôm kinh vào ngực và chào 'Mô Phật' hoặc 'A Di Đà Phật'"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 157,
+            question: "Khi đến chùa gặp chư Tăng hoặc chư Ni, Phật tử nên chào như thế nào?",
+            options:
+            [
+                "Chắp tay xá, chào hiền huynh, hiền tỷ",
+                "Chắp tay xá chào và niệm 'Mô Phật', hay 'A Di Đà Phật'",
+                "Chào hỏi thân mật và hỏi thăm sức khỏe",
+                "Thăm hỏi như người thân trong gia đình"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 158,
+            question: "Bổn phận của Phật tử đói với Tăng, Ni là gì?",
+            options:
+            [
+                "Chỉ tôn trọng thầy mình là đủ",
+                "Chỉ cung kình và nghe theo những vị mình ngưỡng mộ",
+                "Hết lòng cung kính, nương theo Tăng, Ni để học tập đạo lý và tu hành",
+                "Có quyền quy y nhiều Thầy và chỉ tôn trọng vị mình đang theo phụng sự"
+            ],
+            correctOption: 2,
+        },
+    ],
+    [
+        // bai 12
+        {
+            id: 159,
+            question: "Vu Lan Bồn là phiên âm theo tiếng Phạn, Trung Hoa dịch là 'Giải đảo huyền' có nghĩa là gì?",
+            options:
+            [
+                "Cởi trói cho người bị treo ngược",
+                "Cứu sự đao khổ nặng nề như đang bị treo ngược",
+                "Xá tội vong nhân",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 160,
+            question: "Mẹ ngài Mục Kiền Liên tên là gì?",
+            options:
+            [
+                "Bà Thanh Đề",
+                "Bà Duyệt Đế Lợi",
+                "Bà Am Ba Pa Li",
+                "Bà Vi Đề Hy"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 161,
+            question: "Ngài Mục Kiền Liên đã chứng lục thông, sao không tự cứu mẹ, mà phải nhờ sức chú nguyện của chư Tăng?",
+            options:
+            [
+                "Do thần thông bất lực trước quả xấu quá nặng",
+                "Sức chú nguyện của chư Tăng mạnh hơn thần thông",
+                "Nhờ sức chú nguyện của chư Tăng, bà Thanh Đề sanh tâm hối hận nên được giải thoát",
+                "Nhờ sức chú nguyện của chư Tăng, bà Thanh Đề xả bỏ lòng bỏn xẻn nên được giải thoát"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 162,
+            question: "Mục đích Đức Phật nói kinh Vu Lan để làm gì?",
+            options:
+            [
+                "Để cứu bà Thanh Đề do lời thỉnh cầu của tôn giả Mục Kiền Liên",
+                "Để mọi người báo hiếu cha mẹ hiện tiền, hoặc khi đã qua đời",
+                "Để thể hiện niềm tôn kính cha mẹ",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 163,
+            question: "Vì sao trong kinh Phụ Mẫu Báo Ân, Đức Phật lạy đống xương khô?",
+            options:
+            [
+                "Vì cứu bà Thanh Đề",
+                "Vì trong đó có ông bà cha mẹ nhiều đời",
+                "Vì tôn kính cha mẹ",
+                "Gồm đáp án A và B"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 164,
+            question: "Duyên khởi lễ Vu Lan bắt nguồn từ vị nào?",
+            options:
+            [
+                "Tôn giả Xá Lợi Phất",
+                "Tôn giả Mục Kiền Liên",
+                "Tôn giả A Nan",
+                "Tôn giả Tu Bồ Đề"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 165,
+            question: "Tại sao đức Phật chọn ngày rằm tháng bảy (âm lịch) để thiết lễ Vu Lan?",
+            options:
+            [
+                "Vì đó là ngày xá tội vong thân",
+                "Vì đó là ngày chư Tăng Tự tứ",
+                "Vì đó là ngày chư Phật mười phương hoan hỷ",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 166,
+            question: "Phật tử phải báo hiếu cha mẹ như thế nào mới đúng pháp?",
+            options:
+            [
+                "Chiều lòng và làm bất kỳ việc gì cha mẹ muốn",
+                "Tổ chức lễ tang linh đình khi cha mẹ qua đời",
+                "Chăm sóc và hướng cha mẹ theo đường lành, cầu siêu, tạo phước khi cha mẹ qua đời",
+                "Cúng tế quỷ thần để khỏi bắt hồn cha mẹ"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 167,
+            question: "Phật tử nên báo hiếu cha mẹ lúc nào?",
+            options:
+            [
+                "Báo hiếu khi cha mẹ bệnh đau",
+                "báo hiếu sau khi cha mẹ đã qua đời",
+                "Báo hiếu vào dịp lễ Vu Lan",
+                "Báo hiếu hằng ngày và bất kỳ lúc nào có thể"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 168,
+            question: "Tôn giả Mục Kiền Liên thành tựu đệ nhất gì?",
+            options:
+            [
+                "Trí tuệ đệ nhất",
+                "Thần thông đệ nhất",
+                "Đa văn đệ nhất",
+                "Thuyết pháp đệ nhất"
+            ],
+            correctOption: 1,
+        },
+        {
+            id: 169,
+            question: "Vì sao bà Thanh Đề không ăn được bát cơm do tôn giả Mục Kiền Liên dâng?",
+            options:
+            [
+                "Bị quỷ đốt cháy",
+                "Bị quỷ giành ăn",
+                "Bát cơm bốc cháy do nghiệp lực của bà nặng",
+                "Do chịu tội nên không được ăn"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 170,
+            question: "Theo âm lịch, lễ Vu Lan nhằm ngày, tháng nào?",
+            options:
+            [
+                "Rằm tháng hai",
+                "Rằm tháng tư",
+                "Rằm tháng bảy",
+                "Rằm tháng mười"
+            ],
+            correctOption: 2,
+        },
+    ],
+    [
+        // bai 13
+        {
+            id: 171,
+            question: "Vô thường biểu hiện qua những phương diện nào?",
+            options:
+            [
+                "Thân vô thường, tâm vô thường, hoàn cảnh vô thường",
+                "Thân vô thường, khẩu vô thường, hoàn cảnh vô thường",
+                "Thân vô thường, khẩu vô thường, ý vô thường",
+                "Núi sông vô thường, nhà cửa vô thường, mạng người vô thường"
+            ],
+            correctOption: 0,
+        },
+        {
+            id: 172,
+            question: "Vì sao Phật nói pháp vô thường?",
+            options:
+            [
+                "Cảnh tỉnh người đời trước những thú vui, giả tạm",
+                "Đối trị tâm mê mờ, tham ái, chấp thủ của chúng sanh",
+                "Đối trị đắm nhiễm dục lạc",
+                "Đáp án A, B và C đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 173,
+            question: "Bốn giai đoạn thay đổi của sự vật là gì?",
+            options:
+            [
+                "Thành, trụ, hoại, không",
+                "Sanh, trụ, dị, diệt",
+                "Thành, trụ, hoại, tận",
+                "Đáp án A và B đều đúng"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 174,
+            question: "Khi biết thân này là vô thường, Phật tử phải làm gì?",
+            options:
+            [
+                "Sống bình thường, không quan tâm",
+                "Tranh thủ hưởng thụ lúc còn tài sản",
+                "Sống lành mạnh và bình thản trước bệnh tật",
+                "Thường xuyên chăm sóc thân thể"
+            ],
+            correctOption: 2,
+        },
+        {
+            id: 175,
+            question: "Bị luật vô thường chi phối và bị khổ não thuộc về khổ gì?",
+            options:
+            [
+                "Khổ thân xác",
+                "Ngũ ấm xí thạnh khổ",
+                "Khổ tinh thần",
+                "Khổ thân và khổ tâm"
+            ],
+            correctOption: 3,
+        },
+        {
+            id: 176,
+            question: "Theo Phật học Phổ thông, đạo Phật nói vô thuognwf, vậy cái gì thường còn không?",
+            options:
+            [
+                "Không có cái gì thường còn",
+                "Phật tính của chúng sanh là thường còn",
+                "Những gì thuộc chân lý là thường còn",
+                "Phật tánh của chúng sanh và chân lý là thường còn"
+            ],
+            correctOption: 3,
+        },
+        
+        // to be continued
+        {
+            id: 0,
+            question: "",
+            options:
+            [
+                "",
+                "",
+                "",
+                ""
+            ],
+            correctOption: 0,
+        },
+    ],
     [],
     [],
     [],
