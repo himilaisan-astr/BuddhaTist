@@ -122,6 +122,7 @@ export const questionDB = [
         },
     ],
     [
+        // BAI 2
         {
             id: 11,
             question: "Các nhà tiên tri đoán điềm mộng (voi trắng sáu ngà) Hoàng Hậu Ma Da thấy như thế nào?",
@@ -472,6 +473,7 @@ export const questionDB = [
         },
     ],
     [
+        // bai 3
         {
             id: 40,
             question: "Vì sao Đức Phật quyết định chuyển bánh xe pháp?",
@@ -1032,7 +1034,7 @@ export const questionDB = [
             options:
             [
                 "Chánh Pháp của Phật có công năng thoát khỏi ràng buộc thế gian",
-                "Giáo lý Tứ Diệu Đế, Thập nhị nhân duyên, ...",
+                "Giáo lý Tứ Diệu Đế, Thập nhị nhân duyên,    ",
                 "Lời dạy của bậc Thánh xuất thế",
                 "Bao gồm đáp án A và B"
             ],
@@ -1484,7 +1486,7 @@ export const questionDB = [
             options:
             [
                 "Không được, tu Tịnh độ thì phải thờ Phật Di Đà",
-                "Được. Nên thờ Phật Thich Ca vì ngài hiện là giáo chủ cõi Ta bà",
+                "Được  Nên thờ Phật Thich Ca vì ngài hiện là giáo chủ cõi Ta bà",
                 "Tịnh độ chỉ là phương pháp tu, không nhất thiết là chỉ thờ Phật Di Đà",
                 "Đáp án A, B và C"
             ],
@@ -1785,7 +1787,7 @@ export const questionDB = [
             [
                 "Nên nương tựa Phật, Pháp, Tăng và giữ năm giới",
                 "Nên thờ Phật, cúng Phật, tụng kinh, niệm Phật hằng ngày",
-                "Nên giữ giới hạnh, đi chùa, nghe pháp, ...",
+                "Nên giữ giới hạnh, đi chùa, nghe pháp,    ",
                 "Gồm đáp án A, B và C"
             ],
             correctOption: 3,
@@ -1808,7 +1810,7 @@ export const questionDB = [
             options:
             [
                 "Xưng hô theo tuổi tác như: ông, bà, cô, bác, anh, chị",
-                "Kêu Sư huynh, Sư tỷ, xưng pháp danh mình, v.v...",
+                "Kêu Sư huynh, Sư tỷ, xưng pháp danh mình, v v   ",
                 "Chắp tay xá chào và niệm 'Mô Phật', hay 'A Di Đà Phật'",
                 "Gồm đáp án A và C"
             ],
@@ -2158,29 +2160,908 @@ export const questionDB = [
             ],
             correctOption: 0,
         },
+        {
+            id: 177,
+            questions: "Câu nào sau đây thuộc về vô thường?",
+            options:
+            [
+                "Sinh, lão, bệnh, tử ",
+                "Tứ đại khổ không ",
+                "Vạn pháp đều không ",
+                "Đáp án a, b và c đều đúng ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 178,
+            question: "Người tu chứng đắc có bị vô thường chi phối không?",
+            options:
+            [
+                "Vẫn bị vô thường chi phối nhưng không khổ ",
+                "Không còn bị vô thường vì đã ra khỏi sinh tử ",
+                "Người chứng đắc có thần thông biến hóa nên không bị vô thường ",
+                "Đáp án b và c "
+            ],
+            correctAnswer: 0,
+        },
+        {
+            id: 179,
+            question: "Tâm vô thường nghĩa là gì?",
+            options:
+            [
+                "Là tâm thay đổi theo thời gian, hoàn cảnh ",
+                "Là tâm không ở yên một chỗ ",
+                "Chỉ cho sự vận hành liên tục của tâm ",
+                "Đáp án a, b và c đều đúng ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 180,
+            question: "Lợi ích khi hiểu rõ pháp vô thường là gì?",
+            options:
+            [
+                "Hạn chế sự khổ não trước những biến động của cuộc đời ",
+                "Bớt đi lòng tham và sự cố chấp ",
+                "Biết các tập tính trong mình đều có thể thay đổi, để hướng sự an lạc giải thoát ",
+                "Đáp án a, b và c đều đúng "
+            ],
+            correctAnswer: 3,
+        },
     ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    
+    [
+        // bai 14
+        {
+            id: 181,
+            question: "Thiểu dục nghĩa là gì?",
+            options: 
+            [
+                "Ít ham muốn ",
+                "Không ham muốn ",
+                "Ham muốn không ngừng ",
+                "Chỉ người không có dục vọng ",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            id: 182,
+            question: "Năm món dục người đời ham muốn là những gì?",
+            options: 
+            [
+                "Tài, sắc, danh, thực, thùy ",
+                "Sắc, thanh, hương, vị, xúc ",
+                "Sắc, thọ, tưởng, hành, thức ",
+                "Đáp án a và b đều đúng ",
+            ]
+            ,
+                correctAnswer: 3,
+        },
+        {
+            id: 183,
+            question: "Tác hại của tham dục trong đời sống hiện tại như thế nào?",
+            options: 
+            [
+                "Khiến con người mất lý trí ",
+                "Khiến con người sống bất an ",
+                "Khiến con người sống không thật lòng với nhau ",
+                "Đáp án a, b và c đều đúng ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 184,
+            question: "Tri túc nghĩa là gì?",
+            options: 
+            [
+                "Chỉ người có vật chất đầy đủ ",
+                "Chỉ ngườisống biết hài lòng với những gì đang có ",
+                "Chỉ người không biết phấn đấu ",
+                "Chỉ người có đầy đủ tri thức ",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            id: 185,
+            question: "Phật dạy tu hạnh thiểu dục và tri túc để làm gì?",
+            options: 
+            [
+                "Khuyên người an phận thủ thường ",
+                "Hạn chế lòng tham lam ích kỷ và tránh nô lệ vật chất ",
+                "Khuyên người đừng chạy theo danh lợi ",
+                "Giúp người hài lòng với những gì đang có, không khổ đau khi chưa được như ý và tiết chế mọi ham muốn ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 186,
+            question: "Hạnh thiểu dục tri túc đối trị tâm gì?",
+            options: 
+            [
+                "Tâm sân hận ",
+                "Tâm si mê ",
+                "Tâm tham ",
+                "Tâm ganh tỵ ",
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 187,
+            question: "Tu hạnh thiểu dục tri túc có ảnh hưởng đến việc làm kinh tế không?",
+            options: 
+            [
+                "Không được làm kinh tế ",
+                "Vẫn làm kinh tế trong phạm vi cho phép của pháp luật ",
+                "Vẫn hưởng lợi nhuận hợp pháp và không gây tác hại cho người khác ",
+                "Đáp án b và c đều đúng ",
+            ],
+            correctAnswer: 3,
+
+        },
+        {
+            id: 188,
+            question: "Ai là người nên thực hành hạnhthiểudục tritúc?",
+            options: 
+            [
+                "Những người làm kinh tế ",
+                "Người Phật tử tại gia ",
+                "Người xuất gia ",
+                "Tất cả mọi người, mọi thành phần trong xã hội ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 189,
+            question: "Ngườithiểu dục tri túc có biểu hiện như thế nào?",
+            options: 
+            [
+                "Sống kham khổ ",
+                "Sống tiết kiệm và tích lũy tiền của ",
+                "Sống tự tại trước mọi hoàn cảnh ",
+                "Rời xa phố thị, về quê sống an nhàn ",
+            ],
+            correctAnswer: 2,
+
+        },
+        {
+            id: 190,
+            question: "Lợi ích của hạnh thiểu dục và tri túc là gì?",
+            options: 
+            [
+                "Làm chủ được lòng tham ",
+                "Không còn nô lệ vật chất ",
+                "Xã hội được bình an ",
+                "Gồm đáp án a, b và c ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 191,
+            question: "Để có được đời sống thiểu dục tri túc, Phật tử phải thực hành như thế nào?",
+            options:
+            [
+                "Giữ giới không trộm cướp ",
+                "Thực hành hạnh bố thí, cúng dường ",
+                "Lánh xa trần tục ",
+                "Gồm đáp án a và b ",
+            ],
+            correctAnswer: 3,
+        }
+    ],
+    [
+        // bai 15
+        {
+            id: 192,
+            question: "Câu nào sau đây thuộc về đặc tính của nhân quả?",
+            options:
+            [
+                "Nhân thế nào thì quả thế ấy ",
+                "Một nhân không có thể thành quả ",
+                "Trong nhân có quả, trong quả có nhân ",
+                "Đáp án a và c đều đúng "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 193,
+            question: "Nói “Một nhân không thể sinh quả” nghĩa là gì?",
+            options:
+            [
+                "Một nhân thì quá ít nên không thành kết quả ",
+                "Một nhân thì không thể tồn tại được ",
+                "Một nhân không thể thành quả nếu không có sự tương tác của những nhân khác làm duyên ",
+                "Đáp án a và b "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 194,
+            question: "Nói “Trong nhân có quả, trong quả có nhân” nghĩa là gì?",
+            options:
+            [
+                "Trong trái cây có chứa hạt ",
+                "Quả hiện tại hàm chứa nhân quá khứ ",
+                "Nhân hiện tại hàm chứa quả tương lai ",
+                "Đáp án b và c đều đúng "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 195,
+            question: "Nhân quả đồng thời nghĩa là gì?",
+            options:
+            [
+    "         a  Nhân nào quả nấy ",
+                "Nhân và quả xuất hiện cùng lúc ",
+                "Nhân và quả ngay trong kiếp này ",
+                "Trong nhân có quả, trong quả có nhân "
+            ],
+            correctAnswer: 1,
+        },
+        {
+            id: 196,
+            question: "Theo kinh Nhân Quả nói “Nhân nào quả nấy”, sao có người ở hiền lại gặp dữ, kẻ ác lại gặp lành?",
+            options:
+            [
+                "Luật nhân quả cũng chỉ ở mức tương đối ",
+                "Người có phước thì sẽ thay đổi được nhân quả ",
+                "Nhân quả liên hệ đến 3 đời quá khứ, hiện tại và vị lai ",
+                "Đáp án a và b "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 197,
+            question: "Do không hiểu luật nhân quả, nên dễ sanh ra điều gì?",
+            options:
+            [
+                "Tin tưởng vào thần quyền, nên lạc vào mê tín dị đoan ",
+                "Thường sống trong lo sợ ",
+                "Lệ thuộc thần linh, nên sống không hạnh phúc ",
+                "Đáp án a, b và c đều đúng "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 198,
+            question: "Luật nhân quả do ai tạo nên?",
+            options:
+            [
+                "Do Thần linh ",
+                "Do Ngẫu nhiên ",
+                "Do Đấng tạo hóa ",
+                "Do Định luật tự nhiên "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 199,
+            question: "Lợi ích của việc tin nhân quả là gì?",
+            options:
+            [
+                "Không tin vào thần quyền ",
+                "Niềm tin chân chánh, không lạc vào mê tín ",
+                "Không sợ hãi, không lệ thuộc thần linh, không an lạc ",
+                "Đáp án a, b và c "
+            ],
+            correctAnswer: 1,
+        }, 
+        {
+            id: 200,
+            question: "Câu nào sau đây thuộc về luật nhân quả?",
+            options:
+            [
+                "Đời cha ăn mặn đời con khát nước ",
+                "Bụng làm dạ chịu ",
+                "Gieo gió gặt bão ",
+                "Đáp án a và b "
+            ],
+            correctAnswer: 2,
+        }, 
+        {
+            id: 201,
+            question: "Phật tử hiểu thế nào về câu “Bồ tát sợ nhân, chúng sanh sợ quả”?",
+            options:
+            [
+                "Bồ tát hiểu về nhân quả nên sợ lúc tạo nhân xấu ",
+                "Chúng sanh không hiểu nhân quả nên khi quả đến mới lo sợ ",
+                "Câu này không đúng vì ai cũng sợ nhân quả ",
+                "Gồm đáp án a và b "
+
+            ],
+            correctAnswer: 3,
+
+        }, 
+        {
+            id: 202,
+            question: "Câu nói “Đời cha ăn mặn đời con khát nước” có phải nhân quả không?",
+            options:
+            [
+                "Là nhân quả vì như cha mắc nợ thì con phải trả ",
+                "Không phải nhân quả, vì ai làm nấy chịu, không thể chịu thay ",
+                "Câu này chỉ mang tính nhắc nhở chớ không phải nhân quả ",
+                "Đáp án a và c "
+
+            ],
+            correctAnswer: 3,
+        }
+    ],
+    [
+        // bai 16
+        {
+            id: 203,
+            question: "Luân hồi trong Phật giáo là gì?",
+            options:
+            [
+                "Là bánh xe ",
+                "Là xoay tròn ",
+                "Là xoay chuyển ",
+                "Qua lại, luân chuyển trong lục đạo ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 204,
+            question: "Lục đạo là gì?",
+            options:
+            [
+                "Trời, chư thiên, người, địa ngục, ngạ quỷ, súc sanh ",
+                "Trời, người, a tu la, địa ngục, ngạ quỷ, súc sanh ",
+                "Trời, a tu la, rồng, người, ngạ quỷ, súc sanh ",
+                "Trời, người, a tu la, địa ngục, ngạ quỷ, bàn sanh ",
+            ],
+            correctAnswer: 1,
+        },
+        {
+            id: 205,
+            question: "Con người luân hồi trong ba cõi, sáu đường là do gì?",
+            options:
+            [
+                "Tham ái ",
+                "Chấp thủ ",
+                "Chấp ngã ",
+                "Đáp án a, b và c ",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            id: 206,
+            question: "Sau khi mạng chung, nghiệp còn tồn tạihay không?",
+            options:
+            [
+                "Không xác định ",
+                "Khi hết là hết nghiệp ",
+                "Không tồn tại ",
+                "Còn tồn tại ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 207,
+            question: "Nghiệp nào dẫn con người đi tái sanh và ảnh hưởng mạnh ở kiếp sau rất khó giải trừ?",
+            options:
+            [
+                "Cận tử nghiệp và cực trọng nghiệp ",
+                "Tích lũy nghiệp và tập quán nghiệp ",
+                "Cận tử nghiệp và tập quán nghiệp ",
+                "Đáp án a và b ",
+            ],
+            correctAnswer: 0,
+        },
+        {
+            id: 208,
+            question: "Theo giáo lý đạo Phật, sau khi chết con người sẽ ra sao?",
+            options:
+            [
+                "Chết rồi mất hẳn ",
+                "Chờ thượng đế phán quyết ",
+                "Chết rồi vẫn tái sinh làm người, không thể sinh làm thú vật ",
+                "Tùy nghiệp đã tạo mà tái sinh làm người hoặc sinh vào các cõi khác ",
+            ],
+            correctAnswer: 3,
+        }
+    ],
+    [
+        // bai 17
+        {
+        id: 209,
+        question: "Nghiệp có nghĩa là gì?",
+        options:
+        [
+            "Hành động tạo tác, hoặc lành hoặc dữ ",
+            "Những hành vi, ngôn ngữ và tư tưởng thấp hèn tội lỗi ",
+            "Những hành vi, lời nói và suy nghĩ cao thượng tốt đẹp ",
+            "Các hành vi, lời nói và suy nghĩ có chủ ý ",
+        ]
+        },
+        {
+            id: 210,
+            question: "Duyên khởi Phật nói kinh Thập Thiện cho ai? Ở đâu?",
+            options:
+            [
+                "Cho ngài Xá Lợi Phất, ở tịnh xá Trúc Lâm ",
+                "Cho Long Vương, ở tại cung rồng Ta Kiệt La ",
+                "Cho A Nan, ở tịnh xá Kỳ Viên ",
+                "Cho chúng hội, ở núi Linh Thứu",
+            ]
+        },
+        {
+            id: 211,
+            question: "Pháp tu thập thiện thuộc về thừa nào?",
+            options:
+            [
+                "Nhân thừa ",
+                "Thiên thừa ",
+                "Phật thừa ",
+                "Bồ tát thừa ",
+            ]
+        },
+        {
+            id: 212,
+            question: "Thế nào gọi là thiện?",
+            options:
+            [
+                "Thiện có nghĩa là lành, tốt, lợi ích cho gia đình và xã hội ",
+                "Thiện có nghĩa là lành, tốt, lợi ích nhưng không xác định thời gian ",
+                "Thiện có nghĩa là lành, tốt, lợi ích cho mình và người trong hiện tại cũng như tương lai ",
+                "Cả ba câu trên chưa đủ ý nghĩa ",
+            ]
+        },
+        {
+            id: 213,
+            question: "Nghiệp thiện của thân là gì?",
+            options:
+            [
+                "Không trộm cắp, không nói dối, không sân hận ",
+                "Không dâm dục, không nói thêu dệt, không si mê ",
+                "Không sát sanh, không trộm cắp, không tà hạnh ",
+                "Không tham lam, không dâm dục, không ác khẩu ",
+            ]
+        },
+        {
+            id: 214,
+            question: "Nghiệp thiện của miệng là gì?",
+            options:
+            [
+                "Không dâm dục, không nói lưỡi đôi chiều, không tham lam ",
+                "Không nói dối, không nói thêu dệt, không nói lưỡi đôi chiều, không nói lời hung ác ",
+                "Không trộm cắp, không sân hận, không nói lời hung ác ",
+                "Không si mê, không sát sanh, không nói dối ",
+            ]
+        },
+        {
+            id: 215,
+            question: "Nghiệp thiện của ý là gì?",
+            options:
+            [
+                "Không trộm cắp, không nói dối, không si mê ",
+                "Không dâm dục, không nói lời hung ác, không tham lam ",
+                "Không tham lam, không sân hận, không si mê ",
+                "Không sát sanh, không nói thêu dệt, không si mê ",
+            ]
+        },
+        {
+            id: 216,
+            question: "Không tham muốn ngũ dục, lục trần có lợi ích gì?",
+            options:
+            [
+                "Ba nghiệp tự tại ",
+                "Của cải không bị tổn thất ",
+                "Những điều tốt đẹp sẽ đến ",
+                "Đáp án a, b và c ",
+            ]
+        },
+        {
+            id: 217,
+            question: "Không sân hận được lợi ích gì?",
+            options:
+            [
+                "Xa lìa khổ não, giận hờn, tranh cãi ",
+                "Tâm nhu hòa ngay thẳng ",
+                "Thân tướng trang nghiêm, chúng sanh đều tôn kính ",
+                "Đáp án a, b và c đều đúng ",
+            ]
+        },
+        {
+            id: 218,
+            question: "Không si mê vọng chấp được lợi ích gì?",
+            options:
+            [
+                "Được an vui ",
+                "Được chánh kiến ",
+                "Không chấp ngã và xa lìa ác nghiệp ",
+                "Đáp án a, b và c ",
+            ]
+        },
+        {
+            id: 219,
+            question: "Tu Thập thiện được thành quả gì?",
+            options:
+            [
+                "Sức khỏe và tuổi thọ ",
+                "Giàu sang và phú quý ",
+                "Sanh lên cõi trời hưởng phước ",
+                "Đáp án a và b đều đúng ",
+            ]
+        }
+    ],
+    [
+        // bai 19
+        {
+            id: 220,
+            question: "Tứ nhiếp pháp gồm những gì?",
+            options:
+            [
+                "Bố thí, trì giới, niệm Phật, ăn chay ",
+                "Ái ngữ, lợi hành, tụng kinh, nghe pháp ",
+                "Bố thí, ái ngữ, lợi hành, đồng sự ",
+                "Ngồi thiền, tụng kinh, niệm Phật, trì chú "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 221,
+            question: "Bố thí có ba cách gồm những gì?",
+            options:
+            [
+                "Nội tài thí, ngoại tài thí, vô uý thí ",
+                "Tài thí, pháp thí, bình đẳng bố thí ",
+                "Tài thí, pháp thí, vô uý thí ",
+                "Quá khứ thí, hiện tại thí, vị lai thí "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 222,
+            question: "Thế nào là Bố thí ba la mật?",
+            options:
+            [
+                "Bố thí để cầu phước báu nhân thiên ",
+                "Bố thí để được mọi người biết là mình cũng có tấm lòng nhân hậu ",
+                "Bố thí không chấp mình là người cho, kia là người nhận và có vật để bố thí ",
+                "Bố thí không kể công, cúng dường không ỷ lại "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 223,
+            question: "Ái ngữ nhiếp liên quan giới thứ mấy trong năm giới?",
+            options:
+            [
+                "Giới thứ nhất ",
+                "Giới thứ hai ",
+                "Giới thứ ba ",
+                "Giới thứ tư "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 224,
+            question: "Ái ngữ là lời nói như thế nào?",
+            options:
+            [
+                "Thẳng thắn, bộc trực ",
+                "Nhẹ nhàng, khôn khéo ",
+                "Thu phục lòng người ",
+                "Nhẹ nhàng, khôn khéo và thu phục lòng người "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 225,
+            question: "Lợi hành nhiếp là những việc làm nào?",
+            options:
+            [
+                "Làm lợi ích cho mình ",
+                "Làm người khác có tiền của ",
+                "Làm lợi ích cho người bằng ý nghĩ, lời nói, hành động ",
+                "Làm cho người khác được lợi ích, hưởng thụ "
+            ],
+            correctAnswer: 2,
+        },
+    ],
+    [
+        {
+            id: 226,
+            question: "Lục hòa gồm những gì?",
+            options:
+            [
+                "Thân hòa, khẩu hòa, ý hòa, giới hòa, kiến hòa và lộc hòa ",
+                "Thân hòa, khẩu hòa, ý hòa, đức hòa, kiến hòa và lợi hòa ",
+                "Thân hòa, khẩu hòa, ý hòa, giới hòa, tri hòa và lợi hòa ",
+                "Thân hòa, khẩu hòa, ý hòa, giới hòa, kiến hòa và lợi hòa "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 227,
+            question: "Thân hòa là gì?",
+            options:
+            [
+                "Sống trong nhà anh em phải hòa thuận ",
+                "Sống trong tổ chức tập thể phải đoàn kết hòa hợp ",
+                "Sống trong chùa phải hòa kính, đạo vị, đạo tình ",
+                "Đáp án a, b và c đều đúng "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 228,
+            question: "Khẩu hòa là gì?",
+            options:
+            [
+                "Nói lời tâng bốc, khen ngợi ",
+                "Nói lời đường mật để làm vui lòng người ",
+                "Nói lời hòa nhã, chân thật đem lại lợi ích cho tập thể ",
+                "Nói ra những lời làm vui lòng tất cả mọi người "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 229,
+            question: "Ý hòa là gì?",
+            options:
+            [
+                "Ý muốn lợi dụng ",
+                "Ý có vụ lợi riêng ",
+                "Ý hiền hòa, thân thiện, bao dung ",
+                "Ý làm vừa lòng người khác, để được khen ngợi "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 230,
+            question: "Lợi hòa là gì?",
+            options:
+            [
+                "Chia sẻ lợi ích một cách bình đẳng ",
+                "Chia người mình thương nhiều hơn ",
+                "Chia cho người nghèo nhiều hơn ",
+                "Chia cho người giỏi nhiều hơn "
+            ],
+            correctAnswer: 0,
+        },
+        {
+            id: 231,
+            question: "Kiến hòa đồng giải là gì?",
+            options:
+            [
+                "Chia sẻ tài vật ",
+                "Chia sẻ sự hiểu biết của mình với người khác ",
+                "Giải bày, chỉ bảo cho người khác cùng hiểu ",
+                "Chia sẻ, giải bày, chỉ bảo sự hiểu biết của mình cho người khác cùng hiểu "
+            ],
+            correctAnswer: 3,
+        },
+    ],
+    [
+        // bai 20
+        {
+            id: 232,
+            question: "Cảnh giới của Đức Phật A Di Đà gọi là gì?",
+            options:
+            [
+                "Cõi Tây Phương thế giới ",
+                "Cõi Cực Lạc thế giới ",
+                "Cõi Tịnh Độ thế giới ",
+                "Đáp a, b và c đều đúng ",
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 233,
+            question: "Tây phương tam thánh là những vị nào?",
+            options:
+            [
+                "Phật quá khứ, Phật hiện tại, Phật vị lai ",
+                "Phật A Di Đà, Bồ tát Quan Âm, Bồ tát Thế Chí ",
+                "Phật Thích Ca, Phật A Di Đà, Phật Di Lặc ",
+                "Phật Thích Ca, Bồ tát Văn Thù, Bồ tát Thế Chí "
+            ],
+            correctAnswer: 1,
+        },
+        {
+            id: 234,
+            question: "Danh hiệu Phật A Di Đà, được vị Phật nào giới thiệu?",
+            options:
+            [
+                "Phật Đa Bảo ",
+                "Phật Nhiên Đăng ",
+                "Phật Thích Ca Mâu Ni ",
+                "Phật Dược Sư "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 235,
+            question: "Cõi Tây phương Cực Lạc được miêu tả đầy đủnhư thế nào?",
+            options:
+            [
+                "Có hàng cây, mành lưới, lan can, toàn bằng trân bảo ",
+                "Có đất bằng vàng ròng, ao thất bảo, hoa sen báu ",
+                "Có chim thuyết pháp, nước bát công đức, thanh tịnh trang nghiêm ",
+                "Đáp án a, b và c đều đúng "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 236,
+            question: "Những điều kiện nào để vãng sanh về cõi Cực Lạc?",
+            options:
+            [
+                "Nguyện vững vàng, không thối chuyển ",
+                "Niệm Phật liên tục, không dừng nghỉ ",
+                "Tin sâu, hạnh bền bỉ, nguyện vững vàng ",
+                "Tin theo Phật, làm việc thiện "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 237,
+            question: "Trì danh niệm Phật là gì?",
+            options:
+            [
+                "Là vâng giữ danh hiệu Phật ",
+                "Là niệm Phật liên tục, khi đi, đứng nằm, ngồi ",
+                "Là vừa lạy, vừa niệm Phật suốt không nghỉ ",
+                "Là vừa niệm Phật, vừa làm việc thiện "
+            ],
+            correctAnswer: 1,
+        },
+        {
+            id: 238,
+            question: "Quán tưởng niệm Phật là gì?",
+            options:
+            [
+                "Quán tưởng hình dung Đức Phật A Di Đà ở trước mặt ta ",
+                "Quán thân ta ngồi trên hoa sen chắp tay hầu Phật ",
+                "Quán Phật thấy ta, ta thấy Phật, lâu ngày thuần thục ",
+                "Đáp án a, b và c "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 239,
+            question: "Thật tướng niệm Phật là gì?",
+            options:
+            [
+                "Niệm Phật hợp nhất với chân tâm ",
+                "Niệm Phật đạt đến lý tánh tuyệt đối ",
+                "Niệm Phật đến vô niệm, nhứt tâm bất loạn ",
+                "Đáp án a, b và c đều đúng "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 240,
+            question: "Như thế nào là niệm Phật trừ được niệm chúng sanh?",
+            options:
+            [
+                "Niệm Phật diệt được tâm tham, sân, si ",
+                "Niệm Phật không còn phiền não, hỷ, nộ, ái, ố ",
+                "Niệm Phật diệt trừ ngũ dục: Tài, sắc, danh, thực, thuỳ ",
+                "Đáp án a, b và c đều đúng "
+            ],
+            correctAnswer: 0,
+        },
+        {
+            id: 241,
+            question: "Danh hiệu A Di Đà có ý nghĩa đầy đủ là gì?",
+            options:
+            [
+                "Vô Lượng Thọ ",
+                "Vô Lượng Quang ",
+                "Vô Lượng Công Đức ",
+                "Gồm đáp án a, b và c "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 242,
+            question: "Trong Kinh Bi Hoa, tiền thân Phật A Di Đà, khi còn làm vua tên là gì?",
+            options:
+            [
+                "Tần Bà Sa La ",
+                "Vô Tránh Niệm ",
+                "Ba Tư Nặc ",
+                "A Xà Thế "
+            ],
+            correctAnswer: 1,
+        },
+        {
+            id: 243,
+            question: "Theo Kinh Vô Lượng Thọ, tiền thân của Đức Phật A Di Đà, khi xuất gia pháp danh là gì?",
+            options:
+            [
+                "Pháp Minh ",
+                "Pháp Tạng ",
+                "Pháp Đạt ",
+                "Bảo Hải "
+            ],
+            correctAnswer: 1,
+        },
+        {
+            id: 244,
+            question: "Khi đang tu hành, tỳ kheo Pháp Tạng phát ra ",
+            options:
+            [
+                "12 lời nguyện ",
+                "21 lời nguyện ",
+                "48 lời nguyện ",
+                "49 lời nguyện "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 245,
+            question: "Khi tỳ kheo Pháp Tạng tu hành thành Phật với danh hiệu là gì?",
+            options:
+            [
+                "Đức Phật Thích Ca Mâu Ni ",
+                "Đức Phật Dược Sư Lưu Ly ",
+                "Đức Phật A Di Đà ",
+                "Đức Phật Di Lặc "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 246,
+            question: "Câu “Chớ đợi đến già mới niệm Phật, mồ hoang lắm kẻ tuổi thiếu niên” muốn khuyên Phật tử nên làm gì?",
+            options:
+            [
+                "Nên học theo sách Thánh hiền ",
+                "Nên hành trì một cách nghiêm mật ",
+                "Nên kiên tâm chớ chối bỏ trách nhiệm ",
+                "Nên biết vô thường không hẹn trước, sớm nên chuyên cần niệm Phật "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 247,
+            question: "Sơ Tổ tông Tịnh độ là vị nào?",
+            options:
+            [
+                "Tổ Huệ Viễn ",
+                "Tổ Liên Trì ",
+                "Tổ Ấn Quang ",
+                "Tổ Thiện Đạo "
+            ],
+            correctAnswer: 0,
+        },
+        {
+            id: 248,
+            question: "Lợi ích của việc niệm Phật là gì?",
+            options:
+            [
+                "Chư Phật gia hộ ",
+                "Công đức tăng trưởng ",
+                "Tăng phước, tăng thọ ",
+                "Đáp án a, b và c "
+            ],
+            correctAnswer: 3,
+        },
+        {
+            id: 249,
+            question: "Ba đức tin vãng sanh về Tịnh độ gồm những gì?",
+            options:
+            [
+                "Tin Phật, tin Pháp, tin Tăng ",
+                "Tin Phật, tin Pháp, tin người ",
+                "Tin Phật, tin Pháp, tin mình ",
+                "Đáp án a, b và c "
+            ],
+            correctAnswer: 2,
+        },
+        {
+            id: 250,
+            question: "Phật A Di Đà phát bao nhiêu lời nguyện?",
+            options:
+            [
+                "10 lời nguyện ",
+                "48 lời nguyện ",
+                "49 lời nguyện ",
+                "108 lời nguyện "
+            ],
+            correctAnswer: 1,
+        },
+    ],   
 ]
