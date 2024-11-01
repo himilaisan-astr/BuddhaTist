@@ -37,28 +37,32 @@ export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
   };
 
   const handleSwipeLeft = () => {
-    setCurrentQuestionIndex(prev => prev + 1);
+    if (currentQuestionIndex < questions.length -1) {
+      setCurrentQuestionIndex(prev => prev + 1);
+    } else {
+      handleClose();
+    }
   }
 
   const handleSubmit = () => {
   
     // Automatically go to the next question
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < questions.length) {
 
         if (ansCheck != true){
             setAnsCheck(checkAnswer());
         } else {
             // Reset all the variables
-
-            handleSwipeLeft();
-            setSelectedOption(null); // Reset selected option for the next question
-            setCorrect(undefined); // Reset correct answer
-            setAnsCheck(false);
+              handleSwipeLeft();
+              setSelectedOption(null); // Reset selected option for the next question
+              setCorrect(undefined); // Reset correct answer
+              setAnsCheck(false);
         }
     } else {
 
         // set isCompleted
         currentLesson.isCompleted = true;
+        setCurrentQuestionIndex(0);
 
         onClose();
     }
@@ -75,7 +79,7 @@ export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
       <View style={styles.modalContainer}>
         <ScrollView contentContainerStyle={styles.scrollContainer}>
           <ThemedText style={styles.question}>
-            {questions[currentQuestionIndex].question}
+            {questions[currentQuestionIndex].id}. {questions[currentQuestionIndex].question}
           </ThemedText>
           {questions[currentQuestionIndex].options.map((option: any) => (
             <TouchableOpacity

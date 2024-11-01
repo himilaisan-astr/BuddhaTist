@@ -2170,7 +2170,7 @@ export const questionDB = [
                 "Vạn pháp đều không ",
                 "Đáp án a, b và c đều đúng ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 178,
@@ -2182,7 +2182,7 @@ export const questionDB = [
                 "Người chứng đắc có thần thông biến hóa nên không bị vô thường ",
                 "Đáp án b và c "
             ],
-            correctAnswer: 0,
+            correctOption: 0,
         },
         {
             id: 179,
@@ -2194,7 +2194,7 @@ export const questionDB = [
                 "Chỉ cho sự vận hành liên tục của tâm ",
                 "Đáp án a, b và c đều đúng ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 180,
@@ -2206,7 +2206,7 @@ export const questionDB = [
                 "Biết các tập tính trong mình đều có thể thay đổi, để hướng sự an lạc giải thoát ",
                 "Đáp án a, b và c đều đúng "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
     ],
     [
@@ -2221,7 +2221,7 @@ export const questionDB = [
                 "Ham muốn không ngừng ",
                 "Chỉ người không có dục vọng ",
             ],
-            correctAnswer: 0,
+            correctOption: 0,
         },
         {
             id: 182,
@@ -2234,7 +2234,7 @@ export const questionDB = [
                 "Đáp án a và b đều đúng ",
             ]
             ,
-                correctAnswer: 3,
+                correctOption: 3,
         },
         {
             id: 183,
@@ -2246,7 +2246,7 @@ export const questionDB = [
                 "Khiến con người sống không thật lòng với nhau ",
                 "Đáp án a, b và c đều đúng ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 184,
@@ -2258,7 +2258,7 @@ export const questionDB = [
                 "Chỉ người không biết phấn đấu ",
                 "Chỉ người có đầy đủ tri thức ",
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
         {
             id: 185,
@@ -2270,7 +2270,7 @@ export const questionDB = [
                 "Khuyên người đừng chạy theo danh lợi ",
                 "Giúp người hài lòng với những gì đang có, không khổ đau khi chưa được như ý và tiết chế mọi ham muốn ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 186,
@@ -2282,7 +2282,7 @@ export const questionDB = [
                 "Tâm tham ",
                 "Tâm ganh tỵ ",
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 187,
@@ -2294,7 +2294,7 @@ export const questionDB = [
                 "Vẫn hưởng lợi nhuận hợp pháp và không gây tác hại cho người khác ",
                 "Đáp án b và c đều đúng ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
 
         },
         {
@@ -2307,7 +2307,7 @@ export const questionDB = [
                 "Người xuất gia ",
                 "Tất cả mọi người, mọi thành phần trong xã hội ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 189,
@@ -2319,7 +2319,7 @@ export const questionDB = [
                 "Sống tự tại trước mọi hoàn cảnh ",
                 "Rời xa phố thị, về quê sống an nhàn ",
             ],
-            correctAnswer: 2,
+            correctOption: 2,
 
         },
         {
@@ -2332,7 +2332,7 @@ export const questionDB = [
                 "Xã hội được bình an ",
                 "Gồm đáp án a, b và c ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 191,
@@ -2344,7 +2344,7 @@ export const questionDB = [
                 "Lánh xa trần tục ",
                 "Gồm đáp án a và b ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         }
     ],
     [
@@ -2359,7 +2359,7 @@ export const questionDB = [
                 "Trong nhân có quả, trong quả có nhân ",
                 "Đáp án a và c đều đúng "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 193,
@@ -2371,7 +2371,7 @@ export const questionDB = [
                 "Một nhân không thể thành quả nếu không có sự tương tác của những nhân khác làm duyên ",
                 "Đáp án a và b "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 194,
@@ -2383,19 +2383,19 @@ export const questionDB = [
                 "Nhân hiện tại hàm chứa quả tương lai ",
                 "Đáp án b và c đều đúng "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 195,
             question: "Nhân quả đồng thời nghĩa là gì?",
             options:
             [
-    "         a  Nhân nào quả nấy ",
+                "Nhân nào quả nấy ",
                 "Nhân và quả xuất hiện cùng lúc ",
                 "Nhân và quả ngay trong kiếp này ",
                 "Trong nhân có quả, trong quả có nhân "
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
         {
             id: 196,
@@ -2407,7 +2407,7 @@ export const questionDB = [
                 "Nhân quả liên hệ đến 3 đời quá khứ, hiện tại và vị lai ",
                 "Đáp án a và b "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 197,
@@ -2419,7 +2419,7 @@ export const questionDB = [
                 "Lệ thuộc thần linh, nên sống không hạnh phúc ",
                 "Đáp án a, b và c đều đúng "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 198,
@@ -2431,7 +2431,7 @@ export const questionDB = [
                 "Do Đấng tạo hóa ",
                 "Do Định luật tự nhiên "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 199,
@@ -2443,7 +2443,7 @@ export const questionDB = [
                 "Không sợ hãi, không lệ thuộc thần linh, không an lạc ",
                 "Đáp án a, b và c "
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         }, 
         {
             id: 200,
@@ -2455,7 +2455,7 @@ export const questionDB = [
                 "Gieo gió gặt bão ",
                 "Đáp án a và b "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         }, 
         {
             id: 201,
@@ -2468,7 +2468,7 @@ export const questionDB = [
                 "Gồm đáp án a và b "
 
             ],
-            correctAnswer: 3,
+            correctOption: 3,
 
         }, 
         {
@@ -2482,7 +2482,7 @@ export const questionDB = [
                 "Đáp án a và c "
 
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         }
     ],
     [
@@ -2497,7 +2497,7 @@ export const questionDB = [
                 "Là xoay chuyển ",
                 "Qua lại, luân chuyển trong lục đạo ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 204,
@@ -2509,7 +2509,7 @@ export const questionDB = [
                 "Trời, a tu la, rồng, người, ngạ quỷ, súc sanh ",
                 "Trời, người, a tu la, địa ngục, ngạ quỷ, bàn sanh ",
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
         {
             id: 205,
@@ -2521,7 +2521,7 @@ export const questionDB = [
                 "Chấp ngã ",
                 "Đáp án a, b và c ",
             ],
-            correctAnswer: 0,
+            correctOption: 0,
         },
         {
             id: 206,
@@ -2533,7 +2533,7 @@ export const questionDB = [
                 "Không tồn tại ",
                 "Còn tồn tại ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 207,
@@ -2545,7 +2545,7 @@ export const questionDB = [
                 "Cận tử nghiệp và tập quán nghiệp ",
                 "Đáp án a và b ",
             ],
-            correctAnswer: 0,
+            correctOption: 0,
         },
         {
             id: 208,
@@ -2557,7 +2557,7 @@ export const questionDB = [
                 "Chết rồi vẫn tái sinh làm người, không thể sinh làm thú vật ",
                 "Tùy nghiệp đã tạo mà tái sinh làm người hoặc sinh vào các cõi khác ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         }
     ],
     [
@@ -2571,7 +2571,8 @@ export const questionDB = [
             "Những hành vi, ngôn ngữ và tư tưởng thấp hèn tội lỗi ",
             "Những hành vi, lời nói và suy nghĩ cao thượng tốt đẹp ",
             "Các hành vi, lời nói và suy nghĩ có chủ ý ",
-        ]
+        ],
+        correctOption: 3,
         },
         {
             id: 210,
@@ -2582,7 +2583,8 @@ export const questionDB = [
                 "Cho Long Vương, ở tại cung rồng Ta Kiệt La ",
                 "Cho A Nan, ở tịnh xá Kỳ Viên ",
                 "Cho chúng hội, ở núi Linh Thứu",
-            ]
+            ],
+            correctOption: 1,
         },
         {
             id: 211,
@@ -2593,7 +2595,8 @@ export const questionDB = [
                 "Thiên thừa ",
                 "Phật thừa ",
                 "Bồ tát thừa ",
-            ]
+            ],
+            correctOption: 1,
         },
         {
             id: 212,
@@ -2604,7 +2607,8 @@ export const questionDB = [
                 "Thiện có nghĩa là lành, tốt, lợi ích nhưng không xác định thời gian ",
                 "Thiện có nghĩa là lành, tốt, lợi ích cho mình và người trong hiện tại cũng như tương lai ",
                 "Cả ba câu trên chưa đủ ý nghĩa ",
-            ]
+            ],
+            correctOption: 2,
         },
         {
             id: 213,
@@ -2615,7 +2619,8 @@ export const questionDB = [
                 "Không dâm dục, không nói thêu dệt, không si mê ",
                 "Không sát sanh, không trộm cắp, không tà hạnh ",
                 "Không tham lam, không dâm dục, không ác khẩu ",
-            ]
+            ],
+            correctOption: 2,
         },
         {
             id: 214,
@@ -2626,7 +2631,8 @@ export const questionDB = [
                 "Không nói dối, không nói thêu dệt, không nói lưỡi đôi chiều, không nói lời hung ác ",
                 "Không trộm cắp, không sân hận, không nói lời hung ác ",
                 "Không si mê, không sát sanh, không nói dối ",
-            ]
+            ],
+            correctOption: 1,
         },
         {
             id: 215,
@@ -2637,7 +2643,8 @@ export const questionDB = [
                 "Không dâm dục, không nói lời hung ác, không tham lam ",
                 "Không tham lam, không sân hận, không si mê ",
                 "Không sát sanh, không nói thêu dệt, không si mê ",
-            ]
+            ],
+            correctOption: 2,
         },
         {
             id: 216,
@@ -2648,7 +2655,8 @@ export const questionDB = [
                 "Của cải không bị tổn thất ",
                 "Những điều tốt đẹp sẽ đến ",
                 "Đáp án a, b và c ",
-            ]
+            ],
+            correctOption: 3,
         },
         {
             id: 217,
@@ -2659,7 +2667,8 @@ export const questionDB = [
                 "Tâm nhu hòa ngay thẳng ",
                 "Thân tướng trang nghiêm, chúng sanh đều tôn kính ",
                 "Đáp án a, b và c đều đúng ",
-            ]
+            ],
+            correctOption: 3,
         },
         {
             id: 218,
@@ -2670,7 +2679,8 @@ export const questionDB = [
                 "Được chánh kiến ",
                 "Không chấp ngã và xa lìa ác nghiệp ",
                 "Đáp án a, b và c ",
-            ]
+            ],
+            correctOption: 3,
         },
         {
             id: 219,
@@ -2681,11 +2691,12 @@ export const questionDB = [
                 "Giàu sang và phú quý ",
                 "Sanh lên cõi trời hưởng phước ",
                 "Đáp án a và b đều đúng ",
-            ]
+            ],
+            correctOption: 2,
         }
     ],
     [
-        // bai 19
+        // bai 18
         {
             id: 220,
             question: "Tứ nhiếp pháp gồm những gì?",
@@ -2696,7 +2707,7 @@ export const questionDB = [
                 "Bố thí, ái ngữ, lợi hành, đồng sự ",
                 "Ngồi thiền, tụng kinh, niệm Phật, trì chú "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 221,
@@ -2708,7 +2719,7 @@ export const questionDB = [
                 "Tài thí, pháp thí, vô uý thí ",
                 "Quá khứ thí, hiện tại thí, vị lai thí "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 222,
@@ -2720,7 +2731,7 @@ export const questionDB = [
                 "Bố thí không chấp mình là người cho, kia là người nhận và có vật để bố thí ",
                 "Bố thí không kể công, cúng dường không ỷ lại "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 223,
@@ -2732,7 +2743,7 @@ export const questionDB = [
                 "Giới thứ ba ",
                 "Giới thứ tư "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 224,
@@ -2744,7 +2755,7 @@ export const questionDB = [
                 "Thu phục lòng người ",
                 "Nhẹ nhàng, khôn khéo và thu phục lòng người "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 225,
@@ -2756,7 +2767,7 @@ export const questionDB = [
                 "Làm lợi ích cho người bằng ý nghĩ, lời nói, hành động ",
                 "Làm cho người khác được lợi ích, hưởng thụ "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
     ],
     [
@@ -2770,7 +2781,7 @@ export const questionDB = [
                 "Thân hòa, khẩu hòa, ý hòa, giới hòa, tri hòa và lợi hòa ",
                 "Thân hòa, khẩu hòa, ý hòa, giới hòa, kiến hòa và lợi hòa "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 227,
@@ -2782,7 +2793,7 @@ export const questionDB = [
                 "Sống trong chùa phải hòa kính, đạo vị, đạo tình ",
                 "Đáp án a, b và c đều đúng "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 228,
@@ -2794,7 +2805,7 @@ export const questionDB = [
                 "Nói lời hòa nhã, chân thật đem lại lợi ích cho tập thể ",
                 "Nói ra những lời làm vui lòng tất cả mọi người "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 229,
@@ -2806,7 +2817,7 @@ export const questionDB = [
                 "Ý hiền hòa, thân thiện, bao dung ",
                 "Ý làm vừa lòng người khác, để được khen ngợi "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 230,
@@ -2818,7 +2829,7 @@ export const questionDB = [
                 "Chia cho người nghèo nhiều hơn ",
                 "Chia cho người giỏi nhiều hơn "
             ],
-            correctAnswer: 0,
+            correctOption: 0,
         },
         {
             id: 231,
@@ -2830,7 +2841,7 @@ export const questionDB = [
                 "Giải bày, chỉ bảo cho người khác cùng hiểu ",
                 "Chia sẻ, giải bày, chỉ bảo sự hiểu biết của mình cho người khác cùng hiểu "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
     ],
     [
@@ -2845,7 +2856,7 @@ export const questionDB = [
                 "Cõi Tịnh Độ thế giới ",
                 "Đáp a, b và c đều đúng ",
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 233,
@@ -2857,7 +2868,7 @@ export const questionDB = [
                 "Phật Thích Ca, Phật A Di Đà, Phật Di Lặc ",
                 "Phật Thích Ca, Bồ tát Văn Thù, Bồ tát Thế Chí "
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
         {
             id: 234,
@@ -2869,11 +2880,11 @@ export const questionDB = [
                 "Phật Thích Ca Mâu Ni ",
                 "Phật Dược Sư "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 235,
-            question: "Cõi Tây phương Cực Lạc được miêu tả đầy đủnhư thế nào?",
+            question: "Cõi Tây phương Cực Lạc được miêu tả đầy đủ như thế nào?",
             options:
             [
                 "Có hàng cây, mành lưới, lan can, toàn bằng trân bảo ",
@@ -2881,7 +2892,7 @@ export const questionDB = [
                 "Có chim thuyết pháp, nước bát công đức, thanh tịnh trang nghiêm ",
                 "Đáp án a, b và c đều đúng "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 236,
@@ -2893,7 +2904,7 @@ export const questionDB = [
                 "Tin sâu, hạnh bền bỉ, nguyện vững vàng ",
                 "Tin theo Phật, làm việc thiện "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 237,
@@ -2905,7 +2916,7 @@ export const questionDB = [
                 "Là vừa lạy, vừa niệm Phật suốt không nghỉ ",
                 "Là vừa niệm Phật, vừa làm việc thiện "
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
         {
             id: 238,
@@ -2917,7 +2928,7 @@ export const questionDB = [
                 "Quán Phật thấy ta, ta thấy Phật, lâu ngày thuần thục ",
                 "Đáp án a, b và c "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 239,
@@ -2929,7 +2940,7 @@ export const questionDB = [
                 "Niệm Phật đến vô niệm, nhứt tâm bất loạn ",
                 "Đáp án a, b và c đều đúng "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 240,
@@ -2941,7 +2952,7 @@ export const questionDB = [
                 "Niệm Phật diệt trừ ngũ dục: Tài, sắc, danh, thực, thuỳ ",
                 "Đáp án a, b và c đều đúng "
             ],
-            correctAnswer: 0,
+            correctOption: 0,
         },
         {
             id: 241,
@@ -2953,7 +2964,7 @@ export const questionDB = [
                 "Vô Lượng Công Đức ",
                 "Gồm đáp án a, b và c "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 242,
@@ -2965,7 +2976,7 @@ export const questionDB = [
                 "Ba Tư Nặc ",
                 "A Xà Thế "
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
         {
             id: 243,
@@ -2977,7 +2988,7 @@ export const questionDB = [
                 "Pháp Đạt ",
                 "Bảo Hải "
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
         {
             id: 244,
@@ -2989,7 +3000,7 @@ export const questionDB = [
                 "48 lời nguyện ",
                 "49 lời nguyện "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 245,
@@ -3001,7 +3012,7 @@ export const questionDB = [
                 "Đức Phật A Di Đà ",
                 "Đức Phật Di Lặc "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 246,
@@ -3013,7 +3024,7 @@ export const questionDB = [
                 "Nên kiên tâm chớ chối bỏ trách nhiệm ",
                 "Nên biết vô thường không hẹn trước, sớm nên chuyên cần niệm Phật "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 247,
@@ -3025,7 +3036,7 @@ export const questionDB = [
                 "Tổ Ấn Quang ",
                 "Tổ Thiện Đạo "
             ],
-            correctAnswer: 0,
+            correctOption: 0,
         },
         {
             id: 248,
@@ -3037,7 +3048,7 @@ export const questionDB = [
                 "Tăng phước, tăng thọ ",
                 "Đáp án a, b và c "
             ],
-            correctAnswer: 3,
+            correctOption: 3,
         },
         {
             id: 249,
@@ -3049,7 +3060,7 @@ export const questionDB = [
                 "Tin Phật, tin Pháp, tin mình ",
                 "Đáp án a, b và c "
             ],
-            correctAnswer: 2,
+            correctOption: 2,
         },
         {
             id: 250,
@@ -3061,7 +3072,7 @@ export const questionDB = [
                 "49 lời nguyện ",
                 "108 lời nguyện "
             ],
-            correctAnswer: 1,
+            correctOption: 1,
         },
     ],   
 ]
