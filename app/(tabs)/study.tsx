@@ -36,7 +36,7 @@ export default function TabTwoScreen() {
             <ThemedText>
               {`Bài ${lesson.lessonId + 1}: ${lesson.title} `}
               <Ionicons 
-                color={lesson.isCompleted ? "green" : "black"} 
+                color={lesson.isCompleted ? (lesson.allCorrect ? "green" : "purple") : "black"} 
                 name={lesson.isCompleted ? "leaf" : "leaf-outline"} 
               />
             </ThemedText>

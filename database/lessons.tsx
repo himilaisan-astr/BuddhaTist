@@ -6,6 +6,7 @@ export const lessons = [
         title: "ĐẠO PHẬT",
         fromTo: "1-10",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 0,
             questions: questionDB[0],
@@ -18,6 +19,7 @@ export const lessons = [
         subtitle: "(từ Đản sanh đến Thành đạo)",
         fromTo: "11-39",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 1,
             questions: questionDB[1],
@@ -30,6 +32,7 @@ export const lessons = [
         subtitle: "từ Thành đạo đến Niết bàn",
         fromTo: "40-76",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 2,
             questions: questionDB[2],
@@ -41,10 +44,12 @@ export const lessons = [
         title: "QUY Y TAM BẢO",
         fromTo: "77-96",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 3,
             questions: questionDB[3],
             answers: [],
+            
         }
     },
     {
@@ -52,6 +57,7 @@ export const lessons = [
         title: "NGŨ GIỚI",
         fromTo: "97-113",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 4,
             questions: questionDB[4],
@@ -63,6 +69,7 @@ export const lessons = [
         title: "SÁM HỐI",
         fromTo: "114-119",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 5,
             questions: questionDB[5],
@@ -74,6 +81,7 @@ export const lessons = [
         title: "THỜ PHẬT, CÚNG PHẬT, LỄ PHẬT",
         fromTo: "120-126",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 6,
             questions: questionDB[6],
@@ -85,6 +93,7 @@ export const lessons = [
         title: "TỤNG KINH, TRÌ CHÚ, NIỆM PHẬT",
         fromTo: "127-132",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 7,
             questions: questionDB[7],
@@ -96,6 +105,7 @@ export const lessons = [
         title: "ĂN CHAY",
         fromTo: "133-136",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 8,
             questions: questionDB[8],
@@ -107,6 +117,7 @@ export const lessons = [
         title: "BÁT QUAN TRAI GIỚI",
         fromTo: "137-145",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 9,
             questions: questionDB[9],
@@ -118,6 +129,7 @@ export const lessons = [
         title: "BỔN PHẬN PHẬT TỬ TẠI GIA",
         fromTo: "146-158",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 10,
             questions: questionDB[10],
@@ -129,6 +141,7 @@ export const lessons = [
         title: "VU LAN BỒN",
         fromTo: "159-170",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 11,
             questions: questionDB[11],
@@ -140,6 +153,7 @@ export const lessons = [
         title: "VÔ THƯỜNG",
         fromTo: "171-180",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 12,
             questions: questionDB[12],
@@ -151,6 +165,7 @@ export const lessons = [
         title: "THIỂU DỤC TRI TÚC",
         fromTo: "181-191",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 13,
             questions: questionDB[13],
@@ -162,6 +177,7 @@ export const lessons = [
         title: "NHÂN QUẢ",
         fromTo: "192-202",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 14,
             questions: questionDB[14],
@@ -173,6 +189,7 @@ export const lessons = [
         title: "LUÂN HỒI",
         fromTo: "203-208",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 15,
             questions: questionDB[15],
@@ -184,6 +201,7 @@ export const lessons = [
         title: "THẬP THIỆN",
         fromTo: "209-219",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 16,
             questions: questionDB[16],
@@ -195,6 +213,7 @@ export const lessons = [
         title: "TỨ NHIẾP PHÁP",
         fromTo: "220-225",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 17,
             questions: questionDB[17],
@@ -206,6 +225,7 @@ export const lessons = [
         title: "LỤC HÒA",
         fromTo: "226-231",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 18,
             questions: questionDB[18],
@@ -217,6 +237,7 @@ export const lessons = [
         title: "TỊNH ĐỘ",
         fromTo: "232-250",
         isCompleted: false,
+        allCorrect: true,
         content: {
             contentId: 19,
             questions: questionDB[19],

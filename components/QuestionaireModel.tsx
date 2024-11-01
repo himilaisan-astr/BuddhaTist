@@ -9,8 +9,10 @@ export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
   const [answers, setAnswers] = useState<any[]>(currentLesson.content.answers);
   const [questions, setQuestions] = useState(currentLesson.content.questions);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState<string | null>(null); // Track selected option
+  const [selectedOption, setSelectedOption] = useState<string | null>(null); 
+  // Track selected option
 
+  const [allCorrect, setAllCorrect] = useState<boolean>(true);
   const [correct, setCorrect] = useState<boolean>();
   const [ansCheck, setAnsCheck] = useState<boolean>();
 
@@ -24,8 +26,13 @@ export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
         const thisQuestion = questionDB[lessonId][currentQuestionIndex];
         const correctAnswer = thisQuestion.correctOption;
         const givenIndex = thisQuestion.options.findIndex(option => option === selectedOption);
+        const correctOR = (givenIndex == correctAnswer)
 
-        setCorrect(givenIndex == correctAnswer)
+        if (!correctOR) { 
+          setAllCorrect(correctOR)
+        }
+
+        setCorrect(correctOR)
         return true
     }
     return false
@@ -36,11 +43,21 @@ export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
     setAnswers((prev : any) => ([ ...prev, questions[currentQuestionIndex].id]));
   };
 
+  const handleCompletedLesson = () => {
+    // set isCompleted
+    currentLesson.isCompleted = true;
+    currentLesson.allCorrect = allCorrect;  
+  
+    setCurrentQuestionIndex(0);
+
+    onClose();
+  }
+
   const handleSwipeLeft = () => {
     if (currentQuestionIndex < questions.length -1) {
       setCurrentQuestionIndex(prev => prev + 1);
     } else {
-      handleClose();
+      handleCompletedLesson();
     }
   }
 
@@ -57,14 +74,10 @@ export const QuestionnaireModal = ({ lessonId, visible, onClose }: any) => {
               setSelectedOption(null); // Reset selected option for the next question
               setCorrect(undefined); // Reset correct answer
               setAnsCheck(false);
+              setAllCorrect(true);
         }
     } else {
-
-        // set isCompleted
-        currentLesson.isCompleted = true;
-        setCurrentQuestionIndex(0);
-
-        onClose();
+        handleCompletedLesson();
     }
   };
 
